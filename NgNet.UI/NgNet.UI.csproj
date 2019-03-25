@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7BEF2DC8-00F7-4433-983B-EBCF0A5CC9A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NgNet.UI</RootNamespace>
+    <AssemblyName>NgNet.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <FileAlignment>4096</FileAlignment>
+    <LangVersion>6</LangVersion>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BorderSize.cs" />
+    <Compile Include="ButtonStatus.cs" />
+    <Compile Include="Forms\AboutBox.cs" />
+    <Compile Include="Forms\ComboBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Comm.cs" />
+    <Compile Include="Forms\CommBox.cs" />
+    <Compile Include="Forms\CraashDialog.cs" />
+    <Compile Include="Forms\CrashDialogF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CrashDialogF.Designer.cs">
+      <DependentUpon>CrashDialogF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DirSelectBox.cs" />
+    <Compile Include="Forms\ExitBox.cs" />
+    <Compile Include="Forms\ExitWindowsBox.cs" />
+    <Compile Include="Forms\FilterFileDialogF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FilterFileDialogF.Designer.cs">
+      <DependentUpon>FilterFileDialogF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ICommBoxWindow.cs" />
+    <Compile Include="Forms\IdentifyingCodeDialog.cs" />
+    <Compile Include="Forms\IdentifyingCodeDialogF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IdentifyingCodeDialogF.Designer.cs">
+      <DependentUpon>IdentifyingCodeDialogF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ImageBox.cs" />
+    <Compile Include="Forms\ImageBoxF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ImageBoxF.Designer.cs">
+      <DependentUpon>ImageBoxF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InputBox.cs" />
+    <Compile Include="Forms\NgTheme.cs" />
+    <Compile Include="Forms\MessageBox.cs" />
+    <Compile Include="Forms\OpenFileDialog.cs" />
+    <Compile Include="Forms\ReplacePanel.cs" />
+    <Compile Include="Forms\SaveFileDialog.cs" />
+    <Compile Include="Forms\SearchPanel.cs" />
+    <Compile Include="Forms\StartBox.cs" />
+    <Compile Include="Forms\FormEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewHelper.cs" />
+    <Compile Include="Forms\HotMessageBox.cs" />
+    <Compile Include="Forms\ProgressMessageBox.cs" />
+    <Compile Include="Forms\TextBox.cs" />
+    <Compile Include="Forms\TextBoxF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TextBoxF.Designer.cs">
+      <DependentUpon>TextBoxF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TextBoxMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Theme.cs" />
+    <Compile Include="Forms\ThemeableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ThemeableForm.Designer.cs">
+      <DependentUpon>ThemeableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TitleableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TitleableForm.Designer.cs">
+      <DependentUpon>TitleableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenHelper.cs" />
+    <Compile Include="TestClass.cs" />
+    <Compile Include="Theme.cs" />
+    <Compile Include="Forms\IFileDialogWindow.cs" />
+    <Compile Include="Forms\IFilterFileDialogWindow.cs" />
+    <Compile Include="Forms\InputTypes.cs" />
+    <Compile Include="Forms\ExitStyles.cs" />
+    <Compile Include="Forms\CommDialog.cs" />
+    <Compile Include="Forms\ICommDialogWindow.cs" />
+    <Compile Include="Forms\FileDialog.cs" />
+    <Compile Include="Forms\FilterFileDialog.cs" />
+    <Compile Include="Forms\ComboBoxHelper.cs" />
+    <Compile Include="Forms\ContextMenuStripHelper.cs" />
+    <Compile Include="Forms\FormHelper.cs" />
+    <Compile Include="Forms\TextBoxHelper.cs" />
+    <Compile Include="Forms\TreeViewHelper.cs" />
+    <Compile Include="Forms\MenuHelper.cs" />
+    <Compile Include="Forms\AboutBoxF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutBoxF.Designer.cs">
+      <DependentUpon>AboutBoxF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ExitBoxF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExitBoxF.Designer.cs">
+      <DependentUpon>ExitBoxF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StartBoxF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StartBoxF.Designer.cs">
+      <DependentUpon>StartBoxF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DirSelectBoxF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DirSelectBoxF.Designer.cs">
+      <DependentUpon>DirSelectBoxF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IOComm.cs" />
+    <Compile Include="Forms\OpenFileDialogF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OpenFileDialogF.Designer.cs">
+      <DependentUpon>OpenFileDialogF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SaveFileDialogF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SaveFileDialogF.Designer.cs">
+      <DependentUpon>SaveFileDialogF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InputBoxF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InputBoxF.Designer.cs">
+      <DependentUpon>InputBoxF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MessageBoxF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MessageBoxF.Designer.cs">
+      <DependentUpon>MessageBoxF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MenuRender.cs" />
+    <Compile Include="Forms\MenuRenderColors.cs" />
+    <Compile Include="Forms\TitleBar.cs" />
+    <Compile Include="Forms\TitleBarStyles.cs" />
+    <Compile Include="Forms\TreeList\TreeListTrancing.cs" />
+    <Compile Include="Forms\TreeList\Delegates.cs" />
+    <Compile Include="Forms\TreeList\TreeListItemState.cs" />
+    <Compile Include="Forms\TreeList\TreeListNodeCollection.cs" />
+    <Compile Include="Forms\TreeList\TreeListNodeSelection.cs" />
+    <Compile Include="Forms\TreeList\TreeListColumn.cs" />
+    <Compile Include="Forms\TreeList\TreeListColumn.Design.cs" />
+    <Compile Include="Forms\TreeList\TreeListColumnCollection.cs" />
+    <Compile Include="Forms\TreeList\TreeListNode.cs" />
+    <Compile Include="Forms\TreeList\TreeListNodes.cs" />
+    <Compile Include="Forms\TreeList\TreeListOptions.cs" />
+    <Compile Include="Forms\TreeList\TreeListPainter.cs" />
+    <Compile Include="Forms\TreeList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IThemeBase.cs" />
+    <Compile Include="ITheme.cs" />
+    <Compile Include="MouseOperate.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\ExitWindowsBoxF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExitWindowsBoxF.Designer.cs">
+      <DependentUpon>ExitWindowsBoxF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeChangedEvent.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\AboutBoxF.resx">
+      <DependentUpon>AboutBoxF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CrashDialogF.resx">
+      <DependentUpon>CrashDialogF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExitBoxF.resx">
+      <DependentUpon>ExitBoxF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FilterFileDialogF.resx">
+      <DependentUpon>FilterFileDialogF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IdentifyingCodeDialogF.resx">
+      <DependentUpon>IdentifyingCodeDialogF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ImageBoxF.resx">
+      <DependentUpon>ImageBoxF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StartBoxF.resx">
+      <DependentUpon>StartBoxF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DirSelectBoxF.resx">
+      <DependentUpon>DirSelectBoxF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OpenFileDialogF.resx">
+      <DependentUpon>OpenFileDialogF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SaveFileDialogF.resx">
+      <DependentUpon>SaveFileDialogF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InputBoxF.resx">
+      <DependentUpon>InputBoxF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MessageBoxF.resx">
+      <DependentUpon>MessageBoxF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEx.resx">
+      <DependentUpon>FormEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TextBoxF.resx">
+      <DependentUpon>TextBoxF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ThemeableForm.resx">
+      <DependentUpon>ThemeableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TitleableForm.resx">
+      <DependentUpon>TitleableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExitWindowsBoxF.resx">
+      <DependentUpon>ExitWindowsBoxF.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder_mini.png" />
+    <None Include="TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Folder_big.png" />
+    <None Include="Resources\skin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NgNet.Core\NgNet.Core.csproj">
+      <Project>{6a564740-4ac5-422e-afed-66025ae5ff24}</Project>
+      <Name>NgNet.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NgNet.Winapp\NgNet.Winapp.csproj">
+      <Project>{cc6a9791-b5e1-448d-ad18-b0cd076dcabd}</Project>
+      <Name>NgNet.Winapp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
