@@ -32,29 +32,9 @@
             this.ContentPanel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // nameComboBox
-            // 
-            this.nameComboBox.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.nameComboBox.Size = new System.Drawing.Size(505, 27);
-            // 
-            // okButton
-            // 
-            this.okButton.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.okButton.Location = new System.Drawing.Point(627, 589);
-            this.okButton.Text = "打开(&O)";
-            // 
-            // cancelBotton
-            // 
-            this.cancelBotton.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.cancelBotton.Location = new System.Drawing.Point(814, 589);
-            // 
-            // ContentPanel
-            // 
-            this.ContentPanel.Size = new System.Drawing.Size(953, 628);
-            // 
             // OpenFileDialogF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "OpenFileDialogF";
             this.Controls.SetChildIndex(this.ContentPanel, 0);

@@ -43,8 +43,8 @@
             this.ContentPanel.Controls.Add(this.button1);
             this.ContentPanel.Controls.Add(this.button2);
             this.ContentPanel.Controls.Add(this.button3);
-            this.ContentPanel.Location = new System.Drawing.Point(3, 32);
-            this.ContentPanel.Size = new System.Drawing.Size(688, 313);
+            this.ContentPanel.Location = new System.Drawing.Point(3, 22);
+            this.ContentPanel.Size = new System.Drawing.Size(418, 204);
             this.ContentPanel.SizeChanged += new System.EventHandler(this.panel_SizeChanged);
             // 
             // msgRichTextBox
@@ -57,7 +57,7 @@
             this.msgRichTextBox.ReadOnly = true;
             this.msgRichTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.msgRichTextBox.ShowSelectionMargin = true;
-            this.msgRichTextBox.Size = new System.Drawing.Size(668, 231);
+            this.msgRichTextBox.Size = new System.Drawing.Size(404, 123);
             this.msgRichTextBox.TabIndex = 5;
             this.msgRichTextBox.Text = "message";
             // 
@@ -65,10 +65,10 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(504, 251);
+            this.button1.Location = new System.Drawing.Point(308, 143);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 33);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 4;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = false;
@@ -78,10 +78,10 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(358, 251);
+            this.button2.Location = new System.Drawing.Point(162, 143);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(147, 33);
+            this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 3;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = false;
@@ -91,10 +91,10 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Transparent;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(212, 251);
+            this.button3.Location = new System.Drawing.Point(16, 143);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(147, 33);
+            this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 2;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = false;
@@ -107,10 +107,10 @@
             // 
             // MessageBoxF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
-            this.ClientSize = new System.Drawing.Size(694, 348);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.ClientSize = new System.Drawing.Size(424, 229);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(694, 339);
+            this.MinimumSize = new System.Drawing.Size(400, 200);
             this.Name = "MessageBoxF";
             this.Opacity = 0.88D;
             this.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);

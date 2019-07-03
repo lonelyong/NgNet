@@ -299,7 +299,6 @@ namespace NgNet.UI.Forms
             // f
             // 
             _f.AutoScaleDimensions = new SizeF(6F, 12F);
-            _f.AutoScaleMode = AutoScaleMode.Font;
             _f.BackColor = _owner.BorderColor;
             _f.Owner = _owner;
             _f.ClientSize = new Size(426, 180);

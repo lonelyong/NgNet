@@ -23,7 +23,7 @@ namespace NgNet.UI.Forms
         private Color _backColor = Color.Black;
         private Color _foreColor = Color.LightSeaGreen;
         private Color _borderColor = Color.Green;
-        private Font  _font = new Font("SIMSUN", 22, FontStyle.Regular, GraphicsUnit.Pixel);
+        private Font  _font = new Font("SIMSUN", 18, FontStyle.Regular, GraphicsUnit.Pixel);
         #endregion
 
         #region public properties

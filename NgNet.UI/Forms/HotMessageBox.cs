@@ -184,7 +184,6 @@ namespace NgNet.UI.Forms
 
             //fm
             _f.AutoScaleDimensions = new SizeF(6F, 12F);
-            _f.AutoScaleMode = AutoScaleMode.Font;
             _f.BackColor = BackColor;
             _f.ClientSize = AutoSize ? getMessageSize(_message) : ClientSize;
             _f.FormBorderStyle = FormBorderStyle.None;

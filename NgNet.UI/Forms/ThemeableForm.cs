@@ -113,7 +113,7 @@ namespace NgNet.UI.Forms
         {
             InitializeComponent();
             FormHelper = new FormHelper(this);
-            AutoScaleEnable = true;
+            AutoScaleEnable = false;
             Init();
         }
         #endregion
@@ -216,7 +216,7 @@ namespace NgNet.UI.Forms
 
         protected override void OnLoad(EventArgs e)
         {
-            FitDpi();
+            //FitDpi();
             base.OnLoad(e);
         }
         #endregion

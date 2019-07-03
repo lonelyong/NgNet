@@ -54,7 +54,7 @@
             // 
             // ImageBoxF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            
             this.ClientSize = new System.Drawing.Size(770, 462);
             this.MinimumSize = new System.Drawing.Size(480, 360);
             this.Name = "ImageBoxF";

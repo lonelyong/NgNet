@@ -43,8 +43,8 @@
             // ContentPanel
             // 
             this.ContentPanel.Controls.Add(this.splitContainer1);
-            this.ContentPanel.Location = new System.Drawing.Point(3, 32);
-            this.ContentPanel.Size = new System.Drawing.Size(765, 232);
+            this.ContentPanel.Location = new System.Drawing.Point(3, 22);
+            this.ContentPanel.Size = new System.Drawing.Size(494, 203);
             // 
             // splitContainer1
             // 
@@ -69,7 +69,7 @@
             this.splitContainer1.Panel2.Controls.Add(this.inputTxtBox);
             this.splitContainer1.Panel2.Padding = new System.Windows.Forms.Padding(10, 0, 10, 3);
             this.splitContainer1.Panel2MinSize = 68;
-            this.splitContainer1.Size = new System.Drawing.Size(765, 232);
+            this.splitContainer1.Size = new System.Drawing.Size(494, 203);
             this.splitContainer1.SplitterDistance = 80;
             this.splitContainer1.TabIndex = 7;
             // 
@@ -80,7 +80,7 @@
             this.notiLabel.Location = new System.Drawing.Point(10, 12);
             this.notiLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.notiLabel.Name = "notiLabel";
-            this.notiLabel.Size = new System.Drawing.Size(598, 68);
+            this.notiLabel.Size = new System.Drawing.Size(470, 55);
             this.notiLabel.TabIndex = 5;
             this.notiLabel.Text = "请输入";
             // 
@@ -92,7 +92,7 @@
             this.btn_cancel.Location = new System.Drawing.Point(616, 44);
             this.btn_cancel.Margin = new System.Windows.Forms.Padding(4);
             this.btn_cancel.Name = "btn_cancel";
-            this.btn_cancel.Size = new System.Drawing.Size(140, 33);
+            this.btn_cancel.Size = new System.Drawing.Size(75, 23);
             this.btn_cancel.TabIndex = 3;
             this.btn_cancel.Text = "取消(C)";
             this.btn_cancel.UseVisualStyleBackColor = false;
@@ -105,7 +105,7 @@
             this.btn_ok.Location = new System.Drawing.Point(616, 12);
             this.btn_ok.Margin = new System.Windows.Forms.Padding(4);
             this.btn_ok.Name = "btn_ok";
-            this.btn_ok.Size = new System.Drawing.Size(140, 33);
+            this.btn_ok.Size = new System.Drawing.Size(75, 23);
             this.btn_ok.TabIndex = 4;
             this.btn_ok.Text = "确定(&O)";
             this.btn_ok.UseVisualStyleBackColor = false;
@@ -120,7 +120,7 @@
             this.inputTxtBox.Multiline = true;
             this.inputTxtBox.Name = "inputTxtBox";
             this.inputTxtBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.inputTxtBox.Size = new System.Drawing.Size(745, 145);
+            this.inputTxtBox.Size = new System.Drawing.Size(474, 116);
             this.inputTxtBox.TabIndex = 1;
             this.inputTxtBox.Text = "defeattext";
             this.inputTxtBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tBox_input_KeyPress);
@@ -128,12 +128,12 @@
             // InputBoxF
             // 
             this.AcceptButton = this.btn_ok;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.CancelButton = this.btn_cancel;
-            this.ClientSize = new System.Drawing.Size(771, 267);
+            this.ClientSize = new System.Drawing.Size(500, 228);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(768, 228);
+            this.MinimumSize = new System.Drawing.Size(500, 228);
             this.Name = "InputBoxF";
             this.Opacity = 0.88D;
             this.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);

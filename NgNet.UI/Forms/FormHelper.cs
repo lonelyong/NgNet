@@ -299,7 +299,7 @@ namespace NgNet.UI.Forms
         /// <summary>
         /// 初始化
         /// </summary>
-        private void autoBorder(object sender, EventArgs e)
+        private void _AutoBorder(object sender, EventArgs e)
         {
             if (form.WindowState == FormWindowState.Maximized)
                 form.Padding = new Padding(_borderMaxSize.Left, _borderMaxSize.Top, _borderMaxSize.Right, _borderMaxSize.Bottom);
@@ -315,8 +315,9 @@ namespace NgNet.UI.Forms
         {
             _borderMaxSize = max;
             _borderNorSize = nor;
-            form.SizeChanged -= new EventHandler(autoBorder);
-            form.SizeChanged += new EventHandler(autoBorder);
+            form.SizeChanged -= new EventHandler(_AutoBorder);
+            form.SizeChanged += new EventHandler(_AutoBorder);
+            _AutoBorder(this, null);
         }
         /// <summary>
         /// 是否启用自动Padding，如果启用则为上次设置的值
@@ -324,9 +325,9 @@ namespace NgNet.UI.Forms
         /// <param name="enable"></param>
         public void AutoBorder(bool enable)
         {
-            form.SizeChanged -= new EventHandler(autoBorder);
+            form.SizeChanged -= new EventHandler(_AutoBorder);
             if (enable)
-                form.SizeChanged += new EventHandler(autoBorder);
+                form.SizeChanged += new EventHandler(_AutoBorder);
         }
         #endregion
 

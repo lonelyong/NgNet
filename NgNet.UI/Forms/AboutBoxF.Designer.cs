@@ -44,8 +44,8 @@
             // ContentPanel
             // 
             this.ContentPanel.Controls.Add(this.tableLayoutPanel);
-            this.ContentPanel.Location = new System.Drawing.Point(3, 22);
-            this.ContentPanel.Size = new System.Drawing.Size(870, 504);
+            this.ContentPanel.Location = new System.Drawing.Point(3, 26);
+            this.ContentPanel.Size = new System.Drawing.Size(621, 392);
             // 
             // tableLayoutPanel
             // 
@@ -73,7 +73,7 @@
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(870, 504);
+            this.tableLayoutPanel.Size = new System.Drawing.Size(621, 392);
             this.tableLayoutPanel.TabIndex = 0;
             // 
             // logoPicBox
@@ -87,7 +87,7 @@
             this.logoPicBox.Margin = new System.Windows.Forms.Padding(4);
             this.logoPicBox.Name = "logoPicBox";
             this.tableLayoutPanel.SetRowSpan(this.logoPicBox, 6);
-            this.logoPicBox.Size = new System.Drawing.Size(279, 457);
+            this.logoPicBox.Size = new System.Drawing.Size(196, 345);
             this.logoPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logoPicBox.TabIndex = 12;
             this.logoPicBox.TabStop = false;
@@ -97,11 +97,11 @@
             this.labelProductName.BackColor = System.Drawing.Color.Transparent;
             this.labelProductName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelProductName.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.labelProductName.Location = new System.Drawing.Point(296, 39);
+            this.labelProductName.Location = new System.Drawing.Point(213, 39);
             this.labelProductName.Margin = new System.Windows.Forms.Padding(9, 0, 4, 0);
             this.labelProductName.MaximumSize = new System.Drawing.Size(0, 24);
             this.labelProductName.Name = "labelProductName";
-            this.labelProductName.Size = new System.Drawing.Size(570, 24);
+            this.labelProductName.Size = new System.Drawing.Size(404, 24);
             this.labelProductName.TabIndex = 19;
             this.labelProductName.Text = "产品名称";
             this.labelProductName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -111,11 +111,11 @@
             this.labelVersion.BackColor = System.Drawing.Color.Transparent;
             this.labelVersion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelVersion.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.labelVersion.Location = new System.Drawing.Point(296, 85);
+            this.labelVersion.Location = new System.Drawing.Point(213, 74);
             this.labelVersion.Margin = new System.Windows.Forms.Padding(9, 0, 4, 0);
             this.labelVersion.MaximumSize = new System.Drawing.Size(0, 24);
             this.labelVersion.Name = "labelVersion";
-            this.labelVersion.Size = new System.Drawing.Size(570, 24);
+            this.labelVersion.Size = new System.Drawing.Size(404, 24);
             this.labelVersion.TabIndex = 0;
             this.labelVersion.Text = "版本";
             this.labelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -125,11 +125,11 @@
             this.labelCopyright.BackColor = System.Drawing.Color.Transparent;
             this.labelCopyright.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelCopyright.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.labelCopyright.Location = new System.Drawing.Point(296, 131);
+            this.labelCopyright.Location = new System.Drawing.Point(213, 109);
             this.labelCopyright.Margin = new System.Windows.Forms.Padding(9, 0, 4, 0);
             this.labelCopyright.MaximumSize = new System.Drawing.Size(0, 24);
             this.labelCopyright.Name = "labelCopyright";
-            this.labelCopyright.Size = new System.Drawing.Size(570, 24);
+            this.labelCopyright.Size = new System.Drawing.Size(404, 24);
             this.labelCopyright.TabIndex = 21;
             this.labelCopyright.Text = "版权";
             this.labelCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -139,11 +139,11 @@
             this.labelCompanyName.BackColor = System.Drawing.Color.Transparent;
             this.labelCompanyName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelCompanyName.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.labelCompanyName.Location = new System.Drawing.Point(296, 177);
+            this.labelCompanyName.Location = new System.Drawing.Point(213, 144);
             this.labelCompanyName.Margin = new System.Windows.Forms.Padding(9, 0, 4, 0);
             this.labelCompanyName.MaximumSize = new System.Drawing.Size(0, 24);
             this.labelCompanyName.Name = "labelCompanyName";
-            this.labelCompanyName.Size = new System.Drawing.Size(570, 24);
+            this.labelCompanyName.Size = new System.Drawing.Size(404, 24);
             this.labelCompanyName.TabIndex = 22;
             this.labelCompanyName.Text = "公司名称";
             this.labelCompanyName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -153,14 +153,14 @@
             this.tBoxDescription.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tBoxDescription.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.tBoxDescription.Location = new System.Drawing.Point(296, 227);
+            this.tBoxDescription.Location = new System.Drawing.Point(213, 183);
             this.tBoxDescription.Margin = new System.Windows.Forms.Padding(9, 4, 4, 4);
             this.tBoxDescription.Multiline = true;
             this.tBoxDescription.Name = "tBoxDescription";
             this.tBoxDescription.ReadOnly = true;
             this.tBoxDescription.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.tBoxDescription.ShortcutsEnabled = false;
-            this.tBoxDescription.Size = new System.Drawing.Size(570, 224);
+            this.tBoxDescription.Size = new System.Drawing.Size(404, 168);
             this.tBoxDescription.TabIndex = 23;
             this.tBoxDescription.TabStop = false;
             this.tBoxDescription.Text = "说明";
@@ -171,10 +171,10 @@
             this.okButton.BackColor = System.Drawing.Color.Transparent;
             this.okButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.okButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.okButton.Location = new System.Drawing.Point(761, 467);
+            this.okButton.Location = new System.Drawing.Point(512, 359);
             this.okButton.Margin = new System.Windows.Forms.Padding(4);
             this.okButton.Name = "okButton";
-            this.okButton.Size = new System.Drawing.Size(105, 33);
+            this.okButton.Size = new System.Drawing.Size(105, 29);
             this.okButton.TabIndex = 24;
             this.okButton.Text = "确定(&O)";
             this.okButton.UseVisualStyleBackColor = false;
@@ -183,8 +183,8 @@
             // AboutBoxF
             // 
             this.AcceptButton = this.okButton;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
-            this.ClientSize = new System.Drawing.Size(876, 530);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.ClientSize = new System.Drawing.Size(627, 422);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AboutBoxF";

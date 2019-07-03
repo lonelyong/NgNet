@@ -49,18 +49,18 @@
             this.ContentPanel.Controls.Add(this.btn_Select);
             this.ContentPanel.Controls.Add(this.btn_cancel);
             this.ContentPanel.Controls.Add(this.naviTree);
-            this.ContentPanel.Location = new System.Drawing.Point(3, 32);
-            this.ContentPanel.Size = new System.Drawing.Size(426, 631);
+            this.ContentPanel.Location = new System.Drawing.Point(3, 26);
+            this.ContentPanel.Size = new System.Drawing.Size(351, 450);
             this.ContentPanel.SizeChanged += new System.EventHandler(this.pnael_SizeChanged);
             // 
             // pathTBox
             // 
             this.pathTBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pathTBox.ForeColor = System.Drawing.Color.Brown;
-            this.pathTBox.Location = new System.Drawing.Point(10, 542);
+            this.pathTBox.Location = new System.Drawing.Point(10, 371);
             this.pathTBox.Margin = new System.Windows.Forms.Padding(4);
             this.pathTBox.Name = "pathTBox";
-            this.pathTBox.Size = new System.Drawing.Size(404, 26);
+            this.pathTBox.Size = new System.Drawing.Size(333, 21);
             this.pathTBox.TabIndex = 6;
             this.pathTBox.TextChanged += new System.EventHandler(this.pathTBox_TextChanged);
             // 
@@ -68,10 +68,10 @@
             // 
             this.btn_Select.BackColor = System.Drawing.Color.Transparent;
             this.btn_Select.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Select.Location = new System.Drawing.Point(98, 582);
+            this.btn_Select.Location = new System.Drawing.Point(185, 410);
             this.btn_Select.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Select.Name = "btn_Select";
-            this.btn_Select.Size = new System.Drawing.Size(188, 33);
+            this.btn_Select.Size = new System.Drawing.Size(75, 23);
             this.btn_Select.TabIndex = 4;
             this.btn_Select.Text = "选择(&O)";
             this.btn_Select.UseVisualStyleBackColor = false;
@@ -82,10 +82,10 @@
             this.btn_cancel.BackColor = System.Drawing.Color.Transparent;
             this.btn_cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cancel.Location = new System.Drawing.Point(284, 582);
+            this.btn_cancel.Location = new System.Drawing.Point(268, 410);
             this.btn_cancel.Margin = new System.Windows.Forms.Padding(4);
             this.btn_cancel.Name = "btn_cancel";
-            this.btn_cancel.Size = new System.Drawing.Size(132, 33);
+            this.btn_cancel.Size = new System.Drawing.Size(75, 23);
             this.btn_cancel.TabIndex = 5;
             this.btn_cancel.Text = "取消(&C)";
             this.btn_cancel.UseVisualStyleBackColor = false;
@@ -98,7 +98,7 @@
             this.naviTree.Location = new System.Drawing.Point(10, 12);
             this.naviTree.Margin = new System.Windows.Forms.Padding(0);
             this.naviTree.Name = "naviTree";
-            this.naviTree.Size = new System.Drawing.Size(404, 520);
+            this.naviTree.Size = new System.Drawing.Size(333, 344);
             this.naviTree.TabIndex = 1;
             this.naviTree.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tv_navi_AfterSelect);
             this.naviTree.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.tv_navi_NodeMouseClick);
@@ -114,14 +114,14 @@
             this.Tsmi_navi_del,
             this.Tsmi_navi_new});
             this.naviCms.Name = "Cms_navi";
-            this.naviCms.Size = new System.Drawing.Size(153, 144);
+            this.naviCms.Size = new System.Drawing.Size(125, 114);
             this.naviCms.Opening += new System.ComponentModel.CancelEventHandler(this.cms_navi_Opening);
             // 
             // tsmi_navi_open
             // 
             this.tsmi_navi_open.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_navi_open.Name = "tsmi_navi_open";
-            this.tsmi_navi_open.Size = new System.Drawing.Size(152, 28);
+            this.tsmi_navi_open.Size = new System.Drawing.Size(124, 22);
             this.tsmi_navi_open.Text = "打开";
             this.tsmi_navi_open.Click += new System.EventHandler(this.tsmi_navi_open_Click);
             // 
@@ -129,7 +129,7 @@
             // 
             this.Tsmi_navi_attribute.ForeColor = System.Drawing.Color.Teal;
             this.Tsmi_navi_attribute.Name = "Tsmi_navi_attribute";
-            this.Tsmi_navi_attribute.Size = new System.Drawing.Size(152, 28);
+            this.Tsmi_navi_attribute.Size = new System.Drawing.Size(124, 22);
             this.Tsmi_navi_attribute.Text = "属性";
             this.Tsmi_navi_attribute.Click += new System.EventHandler(this.tsmi_navi_attribute_Click);
             // 
@@ -137,7 +137,7 @@
             // 
             this.Tsmi_navi_foldAll.ForeColor = System.Drawing.Color.Teal;
             this.Tsmi_navi_foldAll.Name = "Tsmi_navi_foldAll";
-            this.Tsmi_navi_foldAll.Size = new System.Drawing.Size(152, 28);
+            this.Tsmi_navi_foldAll.Size = new System.Drawing.Size(124, 22);
             this.Tsmi_navi_foldAll.Text = "折叠所有";
             this.Tsmi_navi_foldAll.Click += new System.EventHandler(this.tsmi_navi_foldAll_Click);
             // 
@@ -145,7 +145,7 @@
             // 
             this.Tsmi_navi_del.ForeColor = System.Drawing.Color.Teal;
             this.Tsmi_navi_del.Name = "Tsmi_navi_del";
-            this.Tsmi_navi_del.Size = new System.Drawing.Size(152, 28);
+            this.Tsmi_navi_del.Size = new System.Drawing.Size(124, 22);
             this.Tsmi_navi_del.Text = "删除";
             this.Tsmi_navi_del.Click += new System.EventHandler(this.tsmi_navi_del_Click);
             // 
@@ -153,17 +153,17 @@
             // 
             this.Tsmi_navi_new.ForeColor = System.Drawing.Color.Teal;
             this.Tsmi_navi_new.Name = "Tsmi_navi_new";
-            this.Tsmi_navi_new.Size = new System.Drawing.Size(152, 28);
+            this.Tsmi_navi_new.Size = new System.Drawing.Size(124, 22);
             this.Tsmi_navi_new.Text = "新建";
             this.Tsmi_navi_new.Click += new System.EventHandler(this.tsmi_navi_new_Click);
             // 
             // DirSelectBoxF
             // 
             this.AcceptButton = this.btn_Select;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.CancelButton = this.btn_cancel;
-            this.ClientSize = new System.Drawing.Size(432, 666);
-            this.MinimumSize = new System.Drawing.Size(432, 628);
+            this.ClientSize = new System.Drawing.Size(357, 479);
+            this.MinimumSize = new System.Drawing.Size(200, 100);
             this.Name = "DirSelectBoxF";
             this.Opacity = 0.9D;
             this.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);

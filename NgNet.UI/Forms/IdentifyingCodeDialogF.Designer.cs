@@ -46,7 +46,7 @@
             this.ContentPanel.Controls.Add(this.bottomPanel);
             this.ContentPanel.Controls.Add(this.pictureBox1);
             this.ContentPanel.Padding = new System.Windows.Forms.Padding(12, 12, 12, 24);
-            this.ContentPanel.Size = new System.Drawing.Size(344, 157);
+            this.ContentPanel.Size = new System.Drawing.Size(344, 163);
             // 
             // pictureBox1
             // 
@@ -63,23 +63,24 @@
             // 
             this.codeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.codeTextBox.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.codeTextBox.Font = new System.Drawing.Font("SimSun", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.codeTextBox.Location = new System.Drawing.Point(0, 2);
+            this.codeTextBox.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.codeTextBox.Location = new System.Drawing.Point(1, 1);
             this.codeTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.codeTextBox.Name = "codeTextBox";
-            this.codeTextBox.Size = new System.Drawing.Size(258, 26);
+            this.codeTextBox.Size = new System.Drawing.Size(256, 24);
             this.codeTextBox.TabIndex = 2;
             this.codeTextBox.TextChanged += new System.EventHandler(this.codeTextBox_TextChanged);
             // 
             // boxPanel
             // 
+            this.boxPanel.BackColor = System.Drawing.Color.Transparent;
             this.boxPanel.Controls.Add(this.codeTextBox);
             this.boxPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.boxPanel.Location = new System.Drawing.Point(0, 0);
             this.boxPanel.Margin = new System.Windows.Forms.Padding(4);
             this.boxPanel.Name = "boxPanel";
-            this.boxPanel.Padding = new System.Windows.Forms.Padding(0, 0, 0, 2);
-            this.boxPanel.Size = new System.Drawing.Size(258, 30);
+            this.boxPanel.Padding = new System.Windows.Forms.Padding(1);
+            this.boxPanel.Size = new System.Drawing.Size(258, 26);
             this.boxPanel.TabIndex = 3;
             // 
             // changeLinkLabel
@@ -88,7 +89,7 @@
             this.changeLinkLabel.Location = new System.Drawing.Point(276, 0);
             this.changeLinkLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.changeLinkLabel.Name = "changeLinkLabel";
-            this.changeLinkLabel.Size = new System.Drawing.Size(44, 30);
+            this.changeLinkLabel.Size = new System.Drawing.Size(44, 26);
             this.changeLinkLabel.TabIndex = 3;
             this.changeLinkLabel.TabStop = true;
             this.changeLinkLabel.Text = "更换";
@@ -101,10 +102,10 @@
             this.bottomPanel.Controls.Add(this.boxPanel);
             this.bottomPanel.Controls.Add(this.changeLinkLabel);
             this.bottomPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.bottomPanel.Location = new System.Drawing.Point(12, 103);
+            this.bottomPanel.Location = new System.Drawing.Point(12, 113);
             this.bottomPanel.Margin = new System.Windows.Forms.Padding(4);
             this.bottomPanel.Name = "bottomPanel";
-            this.bottomPanel.Size = new System.Drawing.Size(320, 30);
+            this.bottomPanel.Size = new System.Drawing.Size(320, 26);
             this.bottomPanel.TabIndex = 4;
             // 
             // ntiLabel
@@ -114,12 +115,12 @@
             this.ntiLabel.Location = new System.Drawing.Point(9, 80);
             this.ntiLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ntiLabel.Name = "ntiLabel";
-            this.ntiLabel.Size = new System.Drawing.Size(0, 16);
+            this.ntiLabel.Size = new System.Drawing.Size(0, 12);
             this.ntiLabel.TabIndex = 5;
             // 
             // IdentifyingCodeDialogF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.ClientSize = new System.Drawing.Size(352, 195);
             this.Name = "IdentifyingCodeDialogF";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

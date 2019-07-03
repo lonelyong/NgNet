@@ -38,15 +38,15 @@
             // 
             this.ContentPanel.Controls.Add(this.label1);
             this.ContentPanel.Controls.Add(this.pictureBox1);
-            this.ContentPanel.Size = new System.Drawing.Size(854, 546);
+            this.ContentPanel.Size = new System.Drawing.Size(526, 360);
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(292, 36);
+            this.label1.Location = new System.Drawing.Point(219, 36);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(525, 160);
+            this.label1.Size = new System.Drawing.Size(264, 160);
             this.label1.TabIndex = 2;
             this.label1.Text = "对不起，程序出现错误";
             // 
@@ -55,14 +55,14 @@
             this.pictureBox1.Location = new System.Drawing.Point(45, 36);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(146, 160);
+            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // CrashDialogF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
-            this.ClientSize = new System.Drawing.Size(862, 584);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.ClientSize = new System.Drawing.Size(534, 392);
             this.Name = "CrashDialogF";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CrashDialogF";

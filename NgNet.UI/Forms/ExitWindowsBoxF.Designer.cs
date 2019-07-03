@@ -45,8 +45,8 @@
             this.ContentPanel.Controls.Add(this.btn_cancel);
             this.ContentPanel.Controls.Add(this.btn_ok);
             this.ContentPanel.Controls.Add(this.itemPanel);
-            this.ContentPanel.Location = new System.Drawing.Point(3, 32);
-            this.ContentPanel.Size = new System.Drawing.Size(701, 429);
+            this.ContentPanel.Location = new System.Drawing.Point(3, 26);
+            this.ContentPanel.Size = new System.Drawing.Size(553, 375);
             this.ContentPanel.SizeChanged += new System.EventHandler(this.panel_SizeChanged);
             // 
             // timeLabel
@@ -64,10 +64,10 @@
             // 
             this.btn_cancel.BackColor = System.Drawing.Color.Transparent;
             this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cancel.Location = new System.Drawing.Point(357, 350);
+            this.btn_cancel.Location = new System.Drawing.Point(301, 272);
             this.btn_cancel.Margin = new System.Windows.Forms.Padding(4);
             this.btn_cancel.Name = "btn_cancel";
-            this.btn_cancel.Size = new System.Drawing.Size(144, 33);
+            this.btn_cancel.Size = new System.Drawing.Size(75, 23);
             this.btn_cancel.TabIndex = 6;
             this.btn_cancel.Text = "取消";
             this.btn_cancel.UseVisualStyleBackColor = false;
@@ -77,10 +77,10 @@
             // 
             this.btn_ok.BackColor = System.Drawing.Color.Transparent;
             this.btn_ok.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ok.Location = new System.Drawing.Point(211, 350);
+            this.btn_ok.Location = new System.Drawing.Point(155, 272);
             this.btn_ok.Margin = new System.Windows.Forms.Padding(4);
             this.btn_ok.Name = "btn_ok";
-            this.btn_ok.Size = new System.Drawing.Size(147, 33);
+            this.btn_ok.Size = new System.Drawing.Size(75, 23);
             this.btn_ok.TabIndex = 5;
             this.btn_ok.Text = "确定";
             this.btn_ok.UseVisualStyleBackColor = false;
@@ -94,7 +94,7 @@
             this.itemPanel.Location = new System.Drawing.Point(90, 90);
             this.itemPanel.Margin = new System.Windows.Forms.Padding(4);
             this.itemPanel.Name = "itemPanel";
-            this.itemPanel.Size = new System.Drawing.Size(524, 35);
+            this.itemPanel.Size = new System.Drawing.Size(375, 22);
             this.itemPanel.TabIndex = 3;
             // 
             // restartOptionComboBox
@@ -107,7 +107,7 @@
             this.restartOptionComboBox.Location = new System.Drawing.Point(0, 0);
             this.restartOptionComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.restartOptionComboBox.Name = "restartOptionComboBox";
-            this.restartOptionComboBox.Size = new System.Drawing.Size(522, 24);
+            this.restartOptionComboBox.Size = new System.Drawing.Size(373, 20);
             this.restartOptionComboBox.TabIndex = 2;
             this.restartOptionComboBox.SelectedIndexChanged += new System.EventHandler(this.restartOptionComboBox_SelectedIndexChanged);
             // 
@@ -119,8 +119,8 @@
             // ExitWindowsBoxF
             // 
             this.AcceptButton = this.btn_ok;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
-            this.ClientSize = new System.Drawing.Size(707, 464);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.ClientSize = new System.Drawing.Size(559, 404);
             this.Name = "ExitWindowsBoxF";
             this.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -9,6 +9,7 @@ using System.Net.Sockets;
 using System.Threading.Tasks;
 using System.Drawing;
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
 
 namespace ConsoleTest
 {
@@ -34,7 +35,7 @@ namespace ConsoleTest
         };
         static void Main(string[] args)
         {
-
+            NgNet.UI.Forms.MessageBox.Show("12345");
 			var str = "Abc<li>001</li>adasdf<li>a2</li>dadfasf<li>003</li>";
 			var pattern = @"<li>(?<content>.*?)</li>";
 			var regex = new Regex(pattern);

@@ -343,6 +343,9 @@ namespace NgNet.UI.Forms
             this._tPanel.Name = "tPanel";
             this._tPanel.ContextMenuStrip = _defCms;
             this._tPanel.TabIndex = 0;
+            this._tPanel.SizeChanged += (o, e) => {
+                Height = _tPanel.Height;
+            };
             this._tPanel.Disposed += new EventHandler((object sender, EventArgs e)=> { Disposed?.Invoke(this, e); });
             this._tPanel.MouseDown += (object sender, MouseEventArgs e) =>
             {
@@ -364,6 +367,7 @@ namespace NgNet.UI.Forms
             this._tLabel.BackColor = Color.Transparent;
             this._tLabel.Height = _tPanel.Height;
             this._tLabel.Name = "tLabel";
+            this._tLabel.TextAlign = ContentAlignment.MiddleLeft;
             this._tLabel.MouseDown += (object sender, MouseEventArgs e) => 
             {
                 if (e.Button == MouseButtons.Left)
@@ -382,7 +386,7 @@ namespace NgNet.UI.Forms
                 else
                 {
                     //_maxLabel.Font = new Font(_maxLabel.Font.Name, 9.5f, _maxLabel.Font.Style);
-                    _maxLabel.Text = "□";
+                    _maxLabel.Text = "=";
                     _maxLabel.Size = _minLabel.Size;
                 }
             });
@@ -393,8 +397,8 @@ namespace NgNet.UI.Forms
             Cms = _defCms;
             IconVisible = true;
             Style = Style;
-            Font = new Font("SIMSUN", 18f, FontStyle.Regular, GraphicsUnit.Pixel);
-            Height = 32;
+            Font = new Font("SIMSUN", 9f, FontStyle.Regular);
+            Height = 26;
             if (_f is IThemeBase)
                 BackColor = (_f as IThemeBase).BorderColor;
             else

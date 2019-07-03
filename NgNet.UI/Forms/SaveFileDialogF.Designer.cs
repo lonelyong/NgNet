@@ -38,7 +38,7 @@
             // 
             // SaveFileDialogF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SaveFileDialogF";
             this.Text = "SaveDialog";

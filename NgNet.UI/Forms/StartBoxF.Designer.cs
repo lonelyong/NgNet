@@ -69,7 +69,7 @@
             // 
             // StartBoxF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            
             this.ClientSize = new System.Drawing.Size(594, 364);
             this.DoubleBuffered = true;
             this.Name = "StartBoxF";
