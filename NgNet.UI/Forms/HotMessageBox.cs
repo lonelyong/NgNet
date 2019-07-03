@@ -17,7 +17,7 @@ namespace NgNet.UI.Forms
         private bool _autoSize = false;
         private Color _backColor = Color.Black;
         private Color _foreColor = Color.LightSeaGreen;
-        private Font _font = new Font("SIMYOU", 30F, FontStyle.Bold, GraphicsUnit.Pixel, ((byte)(134)));
+        private Font _font = new Font("SIMYOU", 16F, FontStyle.Bold, GraphicsUnit.Point, ((byte)(134)));
         //要显示的消息
         private string _message = string.Empty;
         //消息已经显示的时长

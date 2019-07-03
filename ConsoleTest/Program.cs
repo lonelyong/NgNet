@@ -21,7 +21,7 @@ namespace ConsoleTest
     }
     class Program
     {
-        
+
         static object syncRoot = new object();
         static bool lockTaken = false;
         static int x = 0;
@@ -35,6 +35,9 @@ namespace ConsoleTest
         };
         static void Main(string[] args)
         {
+            NgNet.UI.Forms.HotMessageBox hotMessageBox = new NgNet.UI.Forms.HotMessageBox(100000);
+            Console.Read();
+            hotMessageBox.Show("sdfs的房价");
             NgNet.UI.Forms.MessageBox.Show("12345");
 			var str = "Abc<li>001</li>adasdf<li>a2</li>dadfasf<li>003</li>";
 			var pattern = @"<li>(?<content>.*?)</li>";
