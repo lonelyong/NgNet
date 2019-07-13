@@ -112,7 +112,8 @@
             // ContentPanel
             // 
             this.ContentPanel.Controls.Add(this.mainSplitContainer);
-            this.ContentPanel.Size = new System.Drawing.Size(876, 573);
+            this.ContentPanel.Location = new System.Drawing.Point(5, 34);
+            this.ContentPanel.Size = new System.Drawing.Size(1174, 723);
             // 
             // mainSplitContainer
             // 
@@ -120,7 +121,7 @@
             this.mainSplitContainer.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.mainSplitContainer.IsSplitterFixed = true;
             this.mainSplitContainer.Location = new System.Drawing.Point(0, 0);
-            this.mainSplitContainer.Margin = new System.Windows.Forms.Padding(4);
+            this.mainSplitContainer.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.mainSplitContainer.Name = "mainSplitContainer";
             this.mainSplitContainer.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -134,7 +135,7 @@
             // 
             this.mainSplitContainer.Panel2.Controls.Add(this.childSplitContainer);
             this.mainSplitContainer.Panel2MinSize = 28;
-            this.mainSplitContainer.Size = new System.Drawing.Size(876, 573);
+            this.mainSplitContainer.Size = new System.Drawing.Size(1174, 723);
             this.mainSplitContainer.SplitterDistance = 26;
             this.mainSplitContainer.SplitterWidth = 2;
             this.mainSplitContainer.TabIndex = 0;
@@ -146,9 +147,9 @@
             this.panel_tools.Controls.Add(this.ms_left);
             this.panel_tools.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_tools.Location = new System.Drawing.Point(0, 2);
-            this.panel_tools.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_tools.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.panel_tools.Name = "panel_tools";
-            this.panel_tools.Size = new System.Drawing.Size(876, 36);
+            this.panel_tools.Size = new System.Drawing.Size(1174, 45);
             this.panel_tools.TabIndex = 2;
             // 
             // ms_right
@@ -163,17 +164,17 @@
             this.tsmi_fonts,
             this.tsmi_fcolor,
             this.tsmi_theme});
-            this.ms_right.Location = new System.Drawing.Point(596, 0);
+            this.ms_right.Location = new System.Drawing.Point(795, 0);
             this.ms_right.Name = "ms_right";
             this.ms_right.Padding = new System.Windows.Forms.Padding(0);
-            this.ms_right.Size = new System.Drawing.Size(271, 24);
+            this.ms_right.Size = new System.Drawing.Size(329, 24);
             this.ms_right.TabIndex = 3;
             // 
             // tsmi_fontSizedown
             // 
             this.tsmi_fontSizedown.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_fontSizedown.Name = "tsmi_fontSizedown";
-            this.tsmi_fontSizedown.Size = new System.Drawing.Size(33, 24);
+            this.tsmi_fontSizedown.Size = new System.Drawing.Size(40, 24);
             this.tsmi_fontSizedown.Tag = "-";
             this.tsmi_fontSizedown.Text = "A-";
             this.tsmi_fontSizedown.Click += new System.EventHandler(this.tsmi_fontSizeud_Click);
@@ -182,7 +183,7 @@
             // 
             this.tsmi_fontSizeup.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_fontSizeup.Name = "tsmi_fontSizeup";
-            this.tsmi_fontSizeup.Size = new System.Drawing.Size(37, 24);
+            this.tsmi_fontSizeup.Size = new System.Drawing.Size(45, 24);
             this.tsmi_fontSizeup.Tag = "+";
             this.tsmi_fontSizeup.Text = "A+";
             this.tsmi_fontSizeup.Click += new System.EventHandler(this.tsmi_fontSizeud_Click);
@@ -198,14 +199,14 @@
             this.tsmi_font_heiti});
             this.tsmi_fonts.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_fonts.Name = "tsmi_fonts";
-            this.tsmi_fonts.Size = new System.Drawing.Size(83, 24);
+            this.tsmi_fonts.Size = new System.Drawing.Size(102, 24);
             this.tsmi_fonts.Text = "常用字体(&T)";
             // 
             // tsmi_font_songti
             // 
             this.tsmi_font_songti.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_font_songti.Name = "tsmi_font_songti";
-            this.tsmi_font_songti.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_font_songti.Size = new System.Drawing.Size(152, 26);
             this.tsmi_font_songti.Tag = "宋体";
             this.tsmi_font_songti.Text = "宋体";
             this.tsmi_font_songti.Click += new System.EventHandler(this.tsmi_fonts_items_Click);
@@ -214,7 +215,7 @@
             // 
             this.tsmi_font_youyuan.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_font_youyuan.Name = "tsmi_font_youyuan";
-            this.tsmi_font_youyuan.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_font_youyuan.Size = new System.Drawing.Size(152, 26);
             this.tsmi_font_youyuan.Tag = "幼圆";
             this.tsmi_font_youyuan.Text = "幼圆";
             this.tsmi_font_youyuan.Click += new System.EventHandler(this.tsmi_fonts_items_Click);
@@ -223,7 +224,7 @@
             // 
             this.tsmi_font_yahei.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_font_yahei.Name = "tsmi_font_yahei";
-            this.tsmi_font_yahei.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_font_yahei.Size = new System.Drawing.Size(152, 26);
             this.tsmi_font_yahei.Tag = "微软雅黑";
             this.tsmi_font_yahei.Text = "微软雅黑";
             this.tsmi_font_yahei.Click += new System.EventHandler(this.tsmi_fonts_items_Click);
@@ -232,7 +233,7 @@
             // 
             this.tsmi_font_caiyun.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_font_caiyun.Name = "tsmi_font_caiyun";
-            this.tsmi_font_caiyun.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_font_caiyun.Size = new System.Drawing.Size(152, 26);
             this.tsmi_font_caiyun.Tag = "华文彩云";
             this.tsmi_font_caiyun.Text = "华文彩云";
             this.tsmi_font_caiyun.Click += new System.EventHandler(this.tsmi_fonts_items_Click);
@@ -241,7 +242,7 @@
             // 
             this.tsmi_font_kaiti.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_font_kaiti.Name = "tsmi_font_kaiti";
-            this.tsmi_font_kaiti.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_font_kaiti.Size = new System.Drawing.Size(152, 26);
             this.tsmi_font_kaiti.Tag = "楷体";
             this.tsmi_font_kaiti.Text = "楷体";
             this.tsmi_font_kaiti.Click += new System.EventHandler(this.tsmi_fonts_items_Click);
@@ -250,7 +251,7 @@
             // 
             this.tsmi_font_heiti.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_font_heiti.Name = "tsmi_font_heiti";
-            this.tsmi_font_heiti.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_font_heiti.Size = new System.Drawing.Size(152, 26);
             this.tsmi_font_heiti.Tag = "黑体";
             this.tsmi_font_heiti.Text = "黑体";
             this.tsmi_font_heiti.Click += new System.EventHandler(this.tsmi_fonts_items_Click);
@@ -263,14 +264,14 @@
             this.tsmi_fcolor_teal});
             this.tsmi_fcolor.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_fcolor.Name = "tsmi_fcolor";
-            this.tsmi_fcolor.Size = new System.Drawing.Size(56, 24);
+            this.tsmi_fcolor.Size = new System.Drawing.Size(68, 24);
             this.tsmi_fcolor.Text = "前景色";
             // 
             // tsmi_fcolor_darkGreen
             // 
             this.tsmi_fcolor_darkGreen.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_fcolor_darkGreen.Name = "tsmi_fcolor_darkGreen";
-            this.tsmi_fcolor_darkGreen.Size = new System.Drawing.Size(139, 22);
+            this.tsmi_fcolor_darkGreen.Size = new System.Drawing.Size(169, 26);
             this.tsmi_fcolor_darkGreen.Tag = "DarkGreen";
             this.tsmi_fcolor_darkGreen.Text = "DarkGreen";
             this.tsmi_fcolor_darkGreen.Click += new System.EventHandler(this.tsmi_fcolor_items_Click);
@@ -279,7 +280,7 @@
             // 
             this.tsmi_fcolor_black.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_fcolor_black.Name = "tsmi_fcolor_black";
-            this.tsmi_fcolor_black.Size = new System.Drawing.Size(139, 22);
+            this.tsmi_fcolor_black.Size = new System.Drawing.Size(169, 26);
             this.tsmi_fcolor_black.Tag = "Black";
             this.tsmi_fcolor_black.Text = "Black";
             this.tsmi_fcolor_black.Click += new System.EventHandler(this.tsmi_fcolor_items_Click);
@@ -288,7 +289,7 @@
             // 
             this.tsmi_fcolor_teal.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_fcolor_teal.Name = "tsmi_fcolor_teal";
-            this.tsmi_fcolor_teal.Size = new System.Drawing.Size(139, 22);
+            this.tsmi_fcolor_teal.Size = new System.Drawing.Size(169, 26);
             this.tsmi_fcolor_teal.Tag = "Teal";
             this.tsmi_fcolor_teal.Text = "Teal";
             this.tsmi_fcolor_teal.Click += new System.EventHandler(this.tsmi_fcolor_items_Click);
@@ -303,14 +304,14 @@
             this.tsmi_theme_pink});
             this.tsmi_theme.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_theme.Name = "tsmi_theme";
-            this.tsmi_theme.Size = new System.Drawing.Size(60, 24);
+            this.tsmi_theme.Size = new System.Drawing.Size(72, 24);
             this.tsmi_theme.Text = "主题(&B)";
             // 
             // tsmi_theme_light
             // 
             this.tsmi_theme_light.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_theme_light.Name = "tsmi_theme_light";
-            this.tsmi_theme_light.Size = new System.Drawing.Size(180, 22);
+            this.tsmi_theme_light.Size = new System.Drawing.Size(139, 26);
             this.tsmi_theme_light.Tag = "0";
             this.tsmi_theme_light.Text = "Light";
             this.tsmi_theme_light.Click += new System.EventHandler(this.tsmi_theme_items_Click);
@@ -319,7 +320,7 @@
             // 
             this.tsmi_theme_night.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_theme_night.Name = "tsmi_theme_night";
-            this.tsmi_theme_night.Size = new System.Drawing.Size(180, 22);
+            this.tsmi_theme_night.Size = new System.Drawing.Size(139, 26);
             this.tsmi_theme_night.Tag = "1";
             this.tsmi_theme_night.Text = "Night";
             this.tsmi_theme_night.Click += new System.EventHandler(this.tsmi_theme_items_Click);
@@ -328,7 +329,7 @@
             // 
             this.tsmi_theme_green.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_theme_green.Name = "tsmi_theme_green";
-            this.tsmi_theme_green.Size = new System.Drawing.Size(180, 22);
+            this.tsmi_theme_green.Size = new System.Drawing.Size(139, 26);
             this.tsmi_theme_green.Tag = "2";
             this.tsmi_theme_green.Text = "Green";
             this.tsmi_theme_green.Click += new System.EventHandler(this.tsmi_theme_items_Click);
@@ -337,7 +338,7 @@
             // 
             this.tsmi_theme_purple.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_theme_purple.Name = "tsmi_theme_purple";
-            this.tsmi_theme_purple.Size = new System.Drawing.Size(180, 22);
+            this.tsmi_theme_purple.Size = new System.Drawing.Size(139, 26);
             this.tsmi_theme_purple.Tag = "3";
             this.tsmi_theme_purple.Text = "Purple";
             this.tsmi_theme_purple.Click += new System.EventHandler(this.tsmi_theme_items_Click);
@@ -346,7 +347,7 @@
             // 
             this.tsmi_theme_pink.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_theme_pink.Name = "tsmi_theme_pink";
-            this.tsmi_theme_pink.Size = new System.Drawing.Size(180, 22);
+            this.tsmi_theme_pink.Size = new System.Drawing.Size(139, 26);
             this.tsmi_theme_pink.Tag = "4";
             this.tsmi_theme_pink.Text = "Pink";
             this.tsmi_theme_pink.Click += new System.EventHandler(this.tsmi_theme_items_Click);
@@ -362,10 +363,10 @@
             this.tsmi_edit,
             this.tsmi_option,
             this.tsmi_help});
-            this.ms_left.Location = new System.Drawing.Point(3, 0);
+            this.ms_left.Location = new System.Drawing.Point(4, 0);
             this.ms_left.Name = "ms_left";
             this.ms_left.Padding = new System.Windows.Forms.Padding(0);
-            this.ms_left.Size = new System.Drawing.Size(239, 24);
+            this.ms_left.Size = new System.Drawing.Size(291, 24);
             this.ms_left.TabIndex = 0;
             // 
             // tsmi_file
@@ -378,14 +379,14 @@
             this.tsmi_exit});
             this.tsmi_file.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_file.Name = "tsmi_file";
-            this.tsmi_file.Size = new System.Drawing.Size(58, 24);
+            this.tsmi_file.Size = new System.Drawing.Size(71, 24);
             this.tsmi_file.Text = "文件(&F)";
             // 
             // tsmi_open
             // 
             this.tsmi_open.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_open.Name = "tsmi_open";
-            this.tsmi_open.Size = new System.Drawing.Size(118, 22);
+            this.tsmi_open.Size = new System.Drawing.Size(144, 26);
             this.tsmi_open.Text = "打开(&O)";
             this.tsmi_open.Click += new System.EventHandler(this.tsmi_open_Click);
             // 
@@ -393,7 +394,7 @@
             // 
             this.tsmi_new.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_new.Name = "tsmi_new";
-            this.tsmi_new.Size = new System.Drawing.Size(118, 22);
+            this.tsmi_new.Size = new System.Drawing.Size(144, 26);
             this.tsmi_new.Text = "新窗口";
             this.tsmi_new.Click += new System.EventHandler(this.tsmi_new_Click);
             // 
@@ -401,7 +402,7 @@
             // 
             this.tsmi_save.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_save.Name = "tsmi_save";
-            this.tsmi_save.Size = new System.Drawing.Size(118, 22);
+            this.tsmi_save.Size = new System.Drawing.Size(144, 26);
             this.tsmi_save.Text = "保存(&S)";
             this.tsmi_save.Click += new System.EventHandler(this.tsmi_save_Click);
             // 
@@ -409,7 +410,7 @@
             // 
             this.tsmi_saveNew.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_saveNew.Name = "tsmi_saveNew";
-            this.tsmi_saveNew.Size = new System.Drawing.Size(118, 22);
+            this.tsmi_saveNew.Size = new System.Drawing.Size(144, 26);
             this.tsmi_saveNew.Text = "另存为";
             this.tsmi_saveNew.Click += new System.EventHandler(this.tsmi_saveNew_Click);
             // 
@@ -417,7 +418,7 @@
             // 
             this.tsmi_exit.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_exit.Name = "tsmi_exit";
-            this.tsmi_exit.Size = new System.Drawing.Size(118, 22);
+            this.tsmi_exit.Size = new System.Drawing.Size(144, 26);
             this.tsmi_exit.Text = "退出(&Q)";
             this.tsmi_exit.Click += new System.EventHandler(this.tsmi_exit_Click);
             // 
@@ -429,7 +430,7 @@
             this.tsmi_gotoLine});
             this.tsmi_edit.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_edit.Name = "tsmi_edit";
-            this.tsmi_edit.Size = new System.Drawing.Size(59, 24);
+            this.tsmi_edit.Size = new System.Drawing.Size(71, 24);
             this.tsmi_edit.Text = "编辑(&E)";
             this.tsmi_edit.DropDownOpening += new System.EventHandler(this.tsmi_edit_DropDownOpening);
             // 
@@ -437,7 +438,7 @@
             // 
             this.tsmi_search.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_search.Name = "tsmi_search";
-            this.tsmi_search.Size = new System.Drawing.Size(100, 22);
+            this.tsmi_search.Size = new System.Drawing.Size(122, 26);
             this.tsmi_search.Text = "查找";
             this.tsmi_search.Click += new System.EventHandler(this.tsmi_search_Click);
             // 
@@ -445,7 +446,7 @@
             // 
             this.tsmi_replace.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_replace.Name = "tsmi_replace";
-            this.tsmi_replace.Size = new System.Drawing.Size(100, 22);
+            this.tsmi_replace.Size = new System.Drawing.Size(122, 26);
             this.tsmi_replace.Text = "替换";
             this.tsmi_replace.Click += new System.EventHandler(this.tsmi_replace_Click);
             // 
@@ -453,7 +454,7 @@
             // 
             this.tsmi_gotoLine.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_gotoLine.Name = "tsmi_gotoLine";
-            this.tsmi_gotoLine.Size = new System.Drawing.Size(100, 22);
+            this.tsmi_gotoLine.Size = new System.Drawing.Size(122, 26);
             this.tsmi_gotoLine.Text = "转到";
             this.tsmi_gotoLine.Click += new System.EventHandler(this.tsmi_gotoLine_Click);
             // 
@@ -465,7 +466,7 @@
             this.tsmi_encoding});
             this.tsmi_option.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_option.Name = "tsmi_option";
-            this.tsmi_option.Size = new System.Drawing.Size(59, 24);
+            this.tsmi_option.Size = new System.Drawing.Size(72, 24);
             this.tsmi_option.Text = "选项(&S)";
             // 
             // tsmi_state
@@ -474,7 +475,7 @@
             this.tsmi_state.CheckState = System.Windows.Forms.CheckState.Checked;
             this.tsmi_state.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_state.Name = "tsmi_state";
-            this.tsmi_state.Size = new System.Drawing.Size(112, 22);
+            this.tsmi_state.Size = new System.Drawing.Size(137, 26);
             this.tsmi_state.Text = "状态栏";
             this.tsmi_state.Click += new System.EventHandler(this.tsmi_state_Click);
             // 
@@ -482,14 +483,14 @@
             // 
             this.tsmi_font.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_font.Name = "tsmi_font";
-            this.tsmi_font.Size = new System.Drawing.Size(112, 22);
+            this.tsmi_font.Size = new System.Drawing.Size(137, 26);
             this.tsmi_font.Text = "字体";
             this.tsmi_font.Click += new System.EventHandler(this.tsmi_font_Click);
             // 
             // tsmi_encoding
             // 
             this.tsmi_encoding.Name = "tsmi_encoding";
-            this.tsmi_encoding.Size = new System.Drawing.Size(112, 22);
+            this.tsmi_encoding.Size = new System.Drawing.Size(137, 26);
             this.tsmi_encoding.Text = "编码";
             this.tsmi_encoding.DropDownOpening += new System.EventHandler(this.tsmi_encoding_DropDownOpening);
             // 
@@ -499,14 +500,14 @@
             this.tsmi_about});
             this.tsmi_help.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_help.Name = "tsmi_help";
-            this.tsmi_help.Size = new System.Drawing.Size(61, 24);
+            this.tsmi_help.Size = new System.Drawing.Size(75, 24);
             this.tsmi_help.Text = "关于(&H)";
             // 
             // tsmi_about
             // 
             this.tsmi_about.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.tsmi_about.Name = "tsmi_about";
-            this.tsmi_about.Size = new System.Drawing.Size(159, 22);
+            this.tsmi_about.Size = new System.Drawing.Size(198, 26);
             this.tsmi_about.Text = "关于TextEditor";
             this.tsmi_about.Click += new System.EventHandler(this.tsmi_about_Click);
             // 
@@ -516,7 +517,7 @@
             this.childSplitContainer.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
             this.childSplitContainer.IsSplitterFixed = true;
             this.childSplitContainer.Location = new System.Drawing.Point(0, 0);
-            this.childSplitContainer.Margin = new System.Windows.Forms.Padding(4);
+            this.childSplitContainer.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.childSplitContainer.Name = "childSplitContainer";
             this.childSplitContainer.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -531,8 +532,8 @@
             this.childSplitContainer.Panel2.Controls.Add(this.infLabel);
             this.childSplitContainer.Panel2.Controls.Add(this.locLabel);
             this.childSplitContainer.Panel2MinSize = 13;
-            this.childSplitContainer.Size = new System.Drawing.Size(876, 545);
-            this.childSplitContainer.SplitterDistance = 518;
+            this.childSplitContainer.Size = new System.Drawing.Size(1174, 695);
+            this.childSplitContainer.SplitterDistance = 668;
             this.childSplitContainer.SplitterWidth = 2;
             this.childSplitContainer.TabIndex = 1;
             // 
@@ -543,9 +544,9 @@
             this.txtRtb.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtRtb.HideSelection = false;
             this.txtRtb.Location = new System.Drawing.Point(0, 0);
-            this.txtRtb.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRtb.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtRtb.Name = "txtRtb";
-            this.txtRtb.Size = new System.Drawing.Size(876, 518);
+            this.txtRtb.Size = new System.Drawing.Size(1174, 668);
             this.txtRtb.TabIndex = 0;
             this.txtRtb.Text = "";
             this.txtRtb.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.txtRtb_LinkClick);
@@ -568,70 +569,70 @@
             this.Tsmi_text_bColor,
             this.Tsmi_text_fColor});
             this.cms_text.Name = "Cms_binShow";
-            this.cms_text.Size = new System.Drawing.Size(142, 246);
+            this.cms_text.Size = new System.Drawing.Size(161, 268);
             this.cms_text.Opening += new System.ComponentModel.CancelEventHandler(this.cms_text_Opening);
             this.cms_text.Click += new System.EventHandler(this.cms_text_items_Click);
             // 
             // tsmi_text_copy
             // 
             this.tsmi_text_copy.Name = "tsmi_text_copy";
-            this.tsmi_text_copy.Size = new System.Drawing.Size(141, 22);
+            this.tsmi_text_copy.Size = new System.Drawing.Size(160, 24);
             this.tsmi_text_copy.Text = "复制（&C）";
             this.tsmi_text_copy.Click += new System.EventHandler(this.cms_text_items_Click);
             // 
             // tsmi_text_paste
             // 
             this.tsmi_text_paste.Name = "tsmi_text_paste";
-            this.tsmi_text_paste.Size = new System.Drawing.Size(141, 22);
+            this.tsmi_text_paste.Size = new System.Drawing.Size(160, 24);
             this.tsmi_text_paste.Text = "粘贴（&P）";
             this.tsmi_text_paste.Click += new System.EventHandler(this.cms_text_items_Click);
             // 
             // tsmi_text_redo
             // 
             this.tsmi_text_redo.Name = "tsmi_text_redo";
-            this.tsmi_text_redo.Size = new System.Drawing.Size(141, 22);
+            this.tsmi_text_redo.Size = new System.Drawing.Size(160, 24);
             this.tsmi_text_redo.Text = "重新应用";
             this.tsmi_text_redo.Click += new System.EventHandler(this.cms_text_items_Click);
             // 
             // tsmi_text_undo
             // 
             this.tsmi_text_undo.Name = "tsmi_text_undo";
-            this.tsmi_text_undo.Size = new System.Drawing.Size(141, 22);
+            this.tsmi_text_undo.Size = new System.Drawing.Size(160, 24);
             this.tsmi_text_undo.Text = "撤销";
             this.tsmi_text_undo.Click += new System.EventHandler(this.cms_text_items_Click);
             // 
             // tsmi_text_toHead
             // 
             this.tsmi_text_toHead.Name = "tsmi_text_toHead";
-            this.tsmi_text_toHead.Size = new System.Drawing.Size(141, 22);
+            this.tsmi_text_toHead.Size = new System.Drawing.Size(160, 24);
             this.tsmi_text_toHead.Text = "转到开始(H)";
             this.tsmi_text_toHead.Click += new System.EventHandler(this.cms_text_items_Click);
             // 
             // tsmi_text_toEnd
             // 
             this.tsmi_text_toEnd.Name = "tsmi_text_toEnd";
-            this.tsmi_text_toEnd.Size = new System.Drawing.Size(141, 22);
+            this.tsmi_text_toEnd.Size = new System.Drawing.Size(160, 24);
             this.tsmi_text_toEnd.Text = "转到结尾(E)";
             this.tsmi_text_toEnd.Click += new System.EventHandler(this.cms_text_items_Click);
             // 
             // tsmi_text_selectAll
             // 
             this.tsmi_text_selectAll.Name = "tsmi_text_selectAll";
-            this.tsmi_text_selectAll.Size = new System.Drawing.Size(141, 22);
+            this.tsmi_text_selectAll.Size = new System.Drawing.Size(160, 24);
             this.tsmi_text_selectAll.Text = "全部选中";
             this.tsmi_text_selectAll.Click += new System.EventHandler(this.cms_text_items_Click);
             // 
             // tsmi_text_cut
             // 
             this.tsmi_text_cut.Name = "tsmi_text_cut";
-            this.tsmi_text_cut.Size = new System.Drawing.Size(141, 22);
+            this.tsmi_text_cut.Size = new System.Drawing.Size(160, 24);
             this.tsmi_text_cut.Text = "剪切（&X）";
             this.tsmi_text_cut.Click += new System.EventHandler(this.cms_text_items_Click);
             // 
             // tsmi_text_clean
             // 
             this.tsmi_text_clean.Name = "tsmi_text_clean";
-            this.tsmi_text_clean.Size = new System.Drawing.Size(141, 22);
+            this.tsmi_text_clean.Size = new System.Drawing.Size(160, 24);
             this.tsmi_text_clean.Text = "清空";
             this.tsmi_text_clean.Click += new System.EventHandler(this.cms_text_items_Click);
             // 
@@ -645,13 +646,13 @@
             this.Tsmi_text_backColor_WhiteSmoke,
             this.Tsmi_text_backColor_Gray});
             this.Tsmi_text_bColor.Name = "Tsmi_text_bColor";
-            this.Tsmi_text_bColor.Size = new System.Drawing.Size(141, 22);
+            this.Tsmi_text_bColor.Size = new System.Drawing.Size(160, 24);
             this.Tsmi_text_bColor.Text = "背景色";
             // 
             // tsmi_text_backColor_Pink
             // 
             this.tsmi_text_backColor_Pink.Name = "tsmi_text_backColor_Pink";
-            this.tsmi_text_backColor_Pink.Size = new System.Drawing.Size(149, 22);
+            this.tsmi_text_backColor_Pink.Size = new System.Drawing.Size(185, 26);
             this.tsmi_text_backColor_Pink.Tag = "Pink";
             this.tsmi_text_backColor_Pink.Text = "Pink";
             this.tsmi_text_backColor_Pink.Click += new System.EventHandler(this.tsmi_text_bColor_items_Click);
@@ -659,7 +660,7 @@
             // Tsmi_text_backColor_GreenYellow
             // 
             this.Tsmi_text_backColor_GreenYellow.Name = "Tsmi_text_backColor_GreenYellow";
-            this.Tsmi_text_backColor_GreenYellow.Size = new System.Drawing.Size(149, 22);
+            this.Tsmi_text_backColor_GreenYellow.Size = new System.Drawing.Size(185, 26);
             this.Tsmi_text_backColor_GreenYellow.Tag = "GreenYellow";
             this.Tsmi_text_backColor_GreenYellow.Text = "GreenYellow";
             this.Tsmi_text_backColor_GreenYellow.Click += new System.EventHandler(this.tsmi_text_bColor_items_Click);
@@ -667,7 +668,7 @@
             // tsmi_text_backColor_blue
             // 
             this.tsmi_text_backColor_blue.Name = "tsmi_text_backColor_blue";
-            this.tsmi_text_backColor_blue.Size = new System.Drawing.Size(149, 22);
+            this.tsmi_text_backColor_blue.Size = new System.Drawing.Size(185, 26);
             this.tsmi_text_backColor_blue.Tag = "Blue";
             this.tsmi_text_backColor_blue.Text = "Blue";
             this.tsmi_text_backColor_blue.Click += new System.EventHandler(this.tsmi_text_bColor_items_Click);
@@ -675,7 +676,7 @@
             // Tsmi_text_backColor_Red
             // 
             this.Tsmi_text_backColor_Red.Name = "Tsmi_text_backColor_Red";
-            this.Tsmi_text_backColor_Red.Size = new System.Drawing.Size(149, 22);
+            this.Tsmi_text_backColor_Red.Size = new System.Drawing.Size(185, 26);
             this.Tsmi_text_backColor_Red.Tag = "Red";
             this.Tsmi_text_backColor_Red.Text = "Red";
             this.Tsmi_text_backColor_Red.Click += new System.EventHandler(this.tsmi_text_bColor_items_Click);
@@ -683,7 +684,7 @@
             // Tsmi_text_backColor_WhiteSmoke
             // 
             this.Tsmi_text_backColor_WhiteSmoke.Name = "Tsmi_text_backColor_WhiteSmoke";
-            this.Tsmi_text_backColor_WhiteSmoke.Size = new System.Drawing.Size(149, 22);
+            this.Tsmi_text_backColor_WhiteSmoke.Size = new System.Drawing.Size(185, 26);
             this.Tsmi_text_backColor_WhiteSmoke.Tag = "WhiteSmoke";
             this.Tsmi_text_backColor_WhiteSmoke.Text = "WhiteSmoke";
             this.Tsmi_text_backColor_WhiteSmoke.Click += new System.EventHandler(this.tsmi_text_bColor_items_Click);
@@ -691,7 +692,7 @@
             // Tsmi_text_backColor_Gray
             // 
             this.Tsmi_text_backColor_Gray.Name = "Tsmi_text_backColor_Gray";
-            this.Tsmi_text_backColor_Gray.Size = new System.Drawing.Size(149, 22);
+            this.Tsmi_text_backColor_Gray.Size = new System.Drawing.Size(185, 26);
             this.Tsmi_text_backColor_Gray.Tag = "Gray";
             this.Tsmi_text_backColor_Gray.Text = "Gray";
             this.Tsmi_text_backColor_Gray.Click += new System.EventHandler(this.tsmi_text_bColor_items_Click);
@@ -704,14 +705,14 @@
             this.Tsmi_text_foreColor_darkGreen,
             this.Tsmi_text_foreColor_Black});
             this.Tsmi_text_fColor.Name = "Tsmi_text_fColor";
-            this.Tsmi_text_fColor.Size = new System.Drawing.Size(141, 22);
+            this.Tsmi_text_fColor.Size = new System.Drawing.Size(160, 24);
             this.Tsmi_text_fColor.Text = "前景色";
             this.Tsmi_text_fColor.Click += new System.EventHandler(this.cms_text_items_Click);
             // 
             // Tsmi_text_foreColor_darkRed
             // 
             this.Tsmi_text_foreColor_darkRed.Name = "Tsmi_text_foreColor_darkRed";
-            this.Tsmi_text_foreColor_darkRed.Size = new System.Drawing.Size(139, 22);
+            this.Tsmi_text_foreColor_darkRed.Size = new System.Drawing.Size(169, 26);
             this.Tsmi_text_foreColor_darkRed.Tag = "DarkRed";
             this.Tsmi_text_foreColor_darkRed.Text = "DarkRed";
             this.Tsmi_text_foreColor_darkRed.Click += new System.EventHandler(this.tsmi_text_fColor_items_Click);
@@ -719,7 +720,7 @@
             // Tsmi_text_foreColor_blue
             // 
             this.Tsmi_text_foreColor_blue.Name = "Tsmi_text_foreColor_blue";
-            this.Tsmi_text_foreColor_blue.Size = new System.Drawing.Size(139, 22);
+            this.Tsmi_text_foreColor_blue.Size = new System.Drawing.Size(169, 26);
             this.Tsmi_text_foreColor_blue.Tag = "Blue";
             this.Tsmi_text_foreColor_blue.Text = "Blue";
             this.Tsmi_text_foreColor_blue.Click += new System.EventHandler(this.tsmi_text_fColor_items_Click);
@@ -727,7 +728,7 @@
             // Tsmi_text_foreColor_darkGreen
             // 
             this.Tsmi_text_foreColor_darkGreen.Name = "Tsmi_text_foreColor_darkGreen";
-            this.Tsmi_text_foreColor_darkGreen.Size = new System.Drawing.Size(139, 22);
+            this.Tsmi_text_foreColor_darkGreen.Size = new System.Drawing.Size(169, 26);
             this.Tsmi_text_foreColor_darkGreen.Tag = "DarkGreen";
             this.Tsmi_text_foreColor_darkGreen.Text = "DarkGreen";
             this.Tsmi_text_foreColor_darkGreen.Click += new System.EventHandler(this.tsmi_text_fColor_items_Click);
@@ -735,7 +736,7 @@
             // Tsmi_text_foreColor_Black
             // 
             this.Tsmi_text_foreColor_Black.Name = "Tsmi_text_foreColor_Black";
-            this.Tsmi_text_foreColor_Black.Size = new System.Drawing.Size(139, 22);
+            this.Tsmi_text_foreColor_Black.Size = new System.Drawing.Size(169, 26);
             this.Tsmi_text_foreColor_Black.Tag = "Black";
             this.Tsmi_text_foreColor_Black.Text = "Black";
             this.Tsmi_text_foreColor_Black.Click += new System.EventHandler(this.tsmi_text_fColor_items_Click);
@@ -747,9 +748,9 @@
             this.infLabel.Dock = System.Windows.Forms.DockStyle.Left;
             this.infLabel.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.infLabel.Location = new System.Drawing.Point(0, 0);
-            this.infLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.infLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.infLabel.Name = "infLabel";
-            this.infLabel.Size = new System.Drawing.Size(59, 12);
+            this.infLabel.Size = new System.Drawing.Size(75, 15);
             this.infLabel.TabIndex = 1;
             this.infLabel.Tag = "自由模式";
             this.infLabel.Text = "自由模式 ";
@@ -761,21 +762,22 @@
             this.locLabel.BackColor = System.Drawing.Color.Transparent;
             this.locLabel.Dock = System.Windows.Forms.DockStyle.Right;
             this.locLabel.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.locLabel.Location = new System.Drawing.Point(781, 0);
-            this.locLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.locLabel.Location = new System.Drawing.Point(1047, 0);
+            this.locLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.locLabel.Name = "locLabel";
-            this.locLabel.Size = new System.Drawing.Size(95, 12);
+            this.locLabel.Size = new System.Drawing.Size(127, 15);
             this.locLabel.TabIndex = 0;
             this.locLabel.Text = "X = 0 | Y = 0  ";
             this.locLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // TextBoxF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.ClientSize = new System.Drawing.Size(884, 605);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.ClientSize = new System.Drawing.Size(1184, 762);
             this.MainMenuStrip = this.ms_left;
-            this.MinimumSize = new System.Drawing.Size(450, 270);
+            this.MinimumSize = new System.Drawing.Size(600, 338);
             this.Name = "TextBoxF";
+            this.Padding = new System.Windows.Forms.Padding(5, 2, 5, 5);
             this.Text = "简易文本编辑器";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.this_FormClosing);
             this.Load += new System.EventHandler(this.this_Load);

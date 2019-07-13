@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.infLabel = new System.Windows.Forms.Label();
             this.aheadLabel = new System.Windows.Forms.Label();
             this.backLabel = new System.Windows.Forms.Label();
@@ -102,18 +102,18 @@
             this.ContentPanel.Controls.Add(this.nameLabel);
             this.ContentPanel.Controls.Add(this.pathComboBox);
             this.ContentPanel.Controls.Add(this.splitContainer1);
-            this.ContentPanel.Location = new System.Drawing.Point(3, 26);
-            this.ContentPanel.Size = new System.Drawing.Size(666, 515);
+            this.ContentPanel.Location = new System.Drawing.Point(4, 26);
+            this.ContentPanel.Size = new System.Drawing.Size(888, 676);
             this.ContentPanel.SizeChanged += new System.EventHandler(this.this_SizeChanged);
             // 
             // infLabel
             // 
             this.infLabel.AutoSize = true;
             this.infLabel.BackColor = System.Drawing.Color.Transparent;
-            this.infLabel.Location = new System.Drawing.Point(23, 492);
-            this.infLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.infLabel.Location = new System.Drawing.Point(31, 615);
+            this.infLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.infLabel.Name = "infLabel";
-            this.infLabel.Size = new System.Drawing.Size(113, 12);
+            this.infLabel.Size = new System.Drawing.Size(144, 15);
             this.infLabel.TabIndex = 20;
             this.infLabel.Text = "文件夹：0  文件：0";
             // 
@@ -122,10 +122,10 @@
             this.aheadLabel.BackColor = System.Drawing.Color.Transparent;
             this.aheadLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.aheadLabel.ForeColor = System.Drawing.Color.Black;
-            this.aheadLabel.Location = new System.Drawing.Point(53, 12);
-            this.aheadLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.aheadLabel.Location = new System.Drawing.Point(71, 15);
+            this.aheadLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.aheadLabel.Name = "aheadLabel";
-            this.aheadLabel.Size = new System.Drawing.Size(33, 20);
+            this.aheadLabel.Size = new System.Drawing.Size(44, 25);
             this.aheadLabel.TabIndex = 19;
             this.aheadLabel.Text = "→";
             this.aheadLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -137,10 +137,10 @@
             this.backLabel.BackColor = System.Drawing.Color.Transparent;
             this.backLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backLabel.ForeColor = System.Drawing.Color.Black;
-            this.backLabel.Location = new System.Drawing.Point(9, 12);
-            this.backLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.backLabel.Location = new System.Drawing.Point(12, 15);
+            this.backLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.backLabel.Name = "backLabel";
-            this.backLabel.Size = new System.Drawing.Size(36, 20);
+            this.backLabel.Size = new System.Drawing.Size(48, 25);
             this.backLabel.TabIndex = 18;
             this.backLabel.Text = "←";
             this.backLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -152,10 +152,10 @@
             this.upLabel.BackColor = System.Drawing.Color.Transparent;
             this.upLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.upLabel.ForeColor = System.Drawing.Color.Black;
-            this.upLabel.Location = new System.Drawing.Point(94, 11);
-            this.upLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.upLabel.Location = new System.Drawing.Point(125, 14);
+            this.upLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.upLabel.Name = "upLabel";
-            this.upLabel.Size = new System.Drawing.Size(38, 20);
+            this.upLabel.Size = new System.Drawing.Size(51, 25);
             this.upLabel.TabIndex = 17;
             this.upLabel.Text = "↑(&U)";
             this.upLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -168,10 +168,10 @@
             this.okButton.BackColor = System.Drawing.Color.Transparent;
             this.okButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.okButton.ForeColor = System.Drawing.Color.Black;
-            this.okButton.Location = new System.Drawing.Point(497, 475);
-            this.okButton.Margin = new System.Windows.Forms.Padding(4);
+            this.okButton.Location = new System.Drawing.Point(663, 594);
+            this.okButton.Margin = new System.Windows.Forms.Padding(5);
             this.okButton.Name = "okButton";
-            this.okButton.Size = new System.Drawing.Size(75, 23);
+            this.okButton.Size = new System.Drawing.Size(100, 29);
             this.okButton.TabIndex = 15;
             this.okButton.Text = "保存(&S)";
             this.okButton.UseVisualStyleBackColor = false;
@@ -183,10 +183,10 @@
             this.cancelBotton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.cancelBotton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancelBotton.ForeColor = System.Drawing.Color.Black;
-            this.cancelBotton.Location = new System.Drawing.Point(580, 475);
-            this.cancelBotton.Margin = new System.Windows.Forms.Padding(4);
+            this.cancelBotton.Location = new System.Drawing.Point(773, 594);
+            this.cancelBotton.Margin = new System.Windows.Forms.Padding(5);
             this.cancelBotton.Name = "cancelBotton";
-            this.cancelBotton.Size = new System.Drawing.Size(75, 23);
+            this.cancelBotton.Size = new System.Drawing.Size(100, 29);
             this.cancelBotton.TabIndex = 16;
             this.cancelBotton.Text = "取消(&C)";
             this.cancelBotton.UseVisualStyleBackColor = false;
@@ -196,8 +196,8 @@
             // 
             this.splitContainer2.BackColor = System.Drawing.Color.Transparent;
             this.splitContainer2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.splitContainer2.Location = new System.Drawing.Point(131, 435);
-            this.splitContainer2.Margin = new System.Windows.Forms.Padding(4);
+            this.splitContainer2.Location = new System.Drawing.Point(175, 544);
+            this.splitContainer2.Margin = new System.Windows.Forms.Padding(5);
             this.splitContainer2.Name = "splitContainer2";
             // 
             // splitContainer2.Panel1
@@ -209,9 +209,9 @@
             // 
             this.splitContainer2.Panel2.Controls.Add(this.filterComboBox);
             this.splitContainer2.Panel2MinSize = 200;
-            this.splitContainer2.Size = new System.Drawing.Size(524, 24);
-            this.splitContainer2.SplitterDistance = 314;
-            this.splitContainer2.SplitterWidth = 6;
+            this.splitContainer2.Size = new System.Drawing.Size(699, 30);
+            this.splitContainer2.SplitterDistance = 418;
+            this.splitContainer2.SplitterWidth = 8;
             this.splitContainer2.TabIndex = 14;
             // 
             // nameComboBox
@@ -222,9 +222,9 @@
             this.nameComboBox.ForeColor = System.Drawing.Color.Crimson;
             this.nameComboBox.FormattingEnabled = true;
             this.nameComboBox.Location = new System.Drawing.Point(0, 0);
-            this.nameComboBox.Margin = new System.Windows.Forms.Padding(4);
+            this.nameComboBox.Margin = new System.Windows.Forms.Padding(5);
             this.nameComboBox.Name = "nameComboBox";
-            this.nameComboBox.Size = new System.Drawing.Size(312, 20);
+            this.nameComboBox.Size = new System.Drawing.Size(416, 23);
             this.nameComboBox.TabIndex = 4;
             this.nameComboBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.nameComboBox_KeyPress);
             // 
@@ -237,45 +237,46 @@
             this.filterComboBox.ForeColor = System.Drawing.Color.Purple;
             this.filterComboBox.FormattingEnabled = true;
             this.filterComboBox.Location = new System.Drawing.Point(0, 0);
-            this.filterComboBox.Margin = new System.Windows.Forms.Padding(4);
+            this.filterComboBox.Margin = new System.Windows.Forms.Padding(5);
             this.filterComboBox.Name = "filterComboBox";
-            this.filterComboBox.Size = new System.Drawing.Size(202, 20);
+            this.filterComboBox.Size = new System.Drawing.Size(271, 23);
             this.filterComboBox.TabIndex = 5;
             this.filterComboBox.SelectedIndexChanged += new System.EventHandler(this.filterComboBox_SelectedIndexChanged);
             // 
             // swordTBox
             // 
-            this.swordTBox.Location = new System.Drawing.Point(524, 12);
-            this.swordTBox.Margin = new System.Windows.Forms.Padding(4);
+            this.swordTBox.Location = new System.Drawing.Point(699, 15);
+            this.swordTBox.Margin = new System.Windows.Forms.Padding(5);
             this.swordTBox.Multiline = true;
             this.swordTBox.Name = "swordTBox";
-            this.swordTBox.Size = new System.Drawing.Size(130, 20);
+            this.swordTBox.Size = new System.Drawing.Size(172, 24);
             this.swordTBox.TabIndex = 11;
             // 
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Location = new System.Drawing.Point(23, 443);
-            this.nameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.nameLabel.Location = new System.Drawing.Point(31, 554);
+            this.nameLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(65, 12);
+            this.nameLabel.Size = new System.Drawing.Size(82, 15);
             this.nameLabel.TabIndex = 10;
             this.nameLabel.Text = "文件名称：";
             // 
             // pathComboBox
             // 
             this.pathComboBox.FormattingEnabled = true;
-            this.pathComboBox.Location = new System.Drawing.Point(152, 12);
-            this.pathComboBox.Margin = new System.Windows.Forms.Padding(4);
+            this.pathComboBox.Location = new System.Drawing.Point(203, 15);
+            this.pathComboBox.Margin = new System.Windows.Forms.Padding(5);
             this.pathComboBox.Name = "pathComboBox";
-            this.pathComboBox.Size = new System.Drawing.Size(364, 20);
+            this.pathComboBox.Size = new System.Drawing.Size(484, 23);
             this.pathComboBox.TabIndex = 1;
             // 
             // splitContainer1
             // 
             this.splitContainer1.BackColor = System.Drawing.Color.Transparent;
             this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.splitContainer1.Location = new System.Drawing.Point(10, 52);
+            this.splitContainer1.Location = new System.Drawing.Point(13, 65);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -285,9 +286,9 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.dataGridView);
-            this.splitContainer1.Size = new System.Drawing.Size(645, 354);
-            this.splitContainer1.SplitterDistance = 93;
-            this.splitContainer1.SplitterWidth = 6;
+            this.splitContainer1.Size = new System.Drawing.Size(860, 442);
+            this.splitContainer1.SplitterDistance = 124;
+            this.splitContainer1.SplitterWidth = 8;
             this.splitContainer1.TabIndex = 1;
             // 
             // naviTree
@@ -299,9 +300,9 @@
             this.naviTree.FullRowSelect = true;
             this.naviTree.Indent = 12;
             this.naviTree.Location = new System.Drawing.Point(0, 0);
-            this.naviTree.Margin = new System.Windows.Forms.Padding(4);
+            this.naviTree.Margin = new System.Windows.Forms.Padding(5);
             this.naviTree.Name = "naviTree";
-            this.naviTree.Size = new System.Drawing.Size(91, 352);
+            this.naviTree.Size = new System.Drawing.Size(122, 440);
             this.naviTree.TabIndex = 0;
             this.naviTree.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.naviTree_AfterSelect);
             this.naviTree.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.naviTree_NodeMouseClick);
@@ -312,17 +313,17 @@
             this.dataGridView.AllowUserToAddRows = false;
             this.dataGridView.AllowUserToDeleteRows = false;
             this.dataGridView.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.NullValue = " ";
-            this.dataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.NullValue = " ";
+            this.dataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("宋体", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("宋体", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridView.ColumnHeadersHeight = 17;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -333,33 +334,34 @@
             this.creattimeColumn});
             this.dataGridView.ContextMenuStrip = this.dgvCms;
             this.dataGridView.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("宋体", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.NullValue = " ";
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("宋体", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle9.NullValue = " ";
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView.DefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView.EnableHeadersVisualStyles = false;
             this.dataGridView.GridColor = System.Drawing.Color.Silver;
             this.dataGridView.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView.Margin = new System.Windows.Forms.Padding(5);
             this.dataGridView.MultiSelect = false;
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.ReadOnly = true;
             this.dataGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dataGridView.RowHeadersVisible = false;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            this.dataGridView.RowHeadersWidth = 51;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridView.RowTemplate.Height = 19;
             this.dataGridView.RowTemplate.ReadOnly = true;
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView.ShowCellErrors = false;
             this.dataGridView.ShowRowErrors = false;
-            this.dataGridView.Size = new System.Drawing.Size(544, 352);
+            this.dataGridView.Size = new System.Drawing.Size(726, 440);
             this.dataGridView.TabIndex = 2;
             this.dataGridView.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView_CellMouseDoubleClick);
             this.dataGridView.CellMouseDown += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView_CellMouseDown);
@@ -369,12 +371,13 @@
             // icoColumn
             // 
             this.icoColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.NullValue = "System.Drawing.String";
-            this.icoColumn.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.NullValue = "System.Drawing.String";
+            this.icoColumn.DefaultCellStyle = dataGridViewCellStyle8;
             this.icoColumn.FillWeight = 51.16751F;
             this.icoColumn.Frozen = true;
             this.icoColumn.HeaderText = "";
+            this.icoColumn.MinimumWidth = 6;
             this.icoColumn.Name = "icoColumn";
             this.icoColumn.ReadOnly = true;
             this.icoColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -384,6 +387,7 @@
             // 
             this.nameColumn.FillWeight = 149.1591F;
             this.nameColumn.HeaderText = "名称";
+            this.nameColumn.MinimumWidth = 6;
             this.nameColumn.Name = "nameColumn";
             this.nameColumn.ReadOnly = true;
             // 
@@ -391,6 +395,7 @@
             // 
             this.typeColumn.FillWeight = 93.22446F;
             this.typeColumn.HeaderText = "类型";
+            this.typeColumn.MinimumWidth = 6;
             this.typeColumn.Name = "typeColumn";
             this.typeColumn.ReadOnly = true;
             // 
@@ -398,6 +403,7 @@
             // 
             this.lengthColumn.FillWeight = 93.22446F;
             this.lengthColumn.HeaderText = "大小";
+            this.lengthColumn.MinimumWidth = 6;
             this.lengthColumn.Name = "lengthColumn";
             this.lengthColumn.ReadOnly = true;
             // 
@@ -405,6 +411,7 @@
             // 
             this.creattimeColumn.FillWeight = 93.22446F;
             this.creattimeColumn.HeaderText = "创建日期";
+            this.creattimeColumn.MinimumWidth = 6;
             this.creattimeColumn.Name = "creattimeColumn";
             this.creattimeColumn.ReadOnly = true;
             // 
@@ -417,14 +424,14 @@
             this.tsmi_dgv_new,
             this.tsmi_dgv_paste});
             this.dgvCms.Name = "dgvCms";
-            this.dgvCms.Size = new System.Drawing.Size(113, 92);
+            this.dgvCms.Size = new System.Drawing.Size(124, 100);
             this.dgvCms.Opening += new System.ComponentModel.CancelEventHandler(this.dgvCms_Opening);
             // 
             // tsmi_dgv_parent
             // 
             this.tsmi_dgv_parent.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_dgv_parent.Name = "tsmi_dgv_parent";
-            this.tsmi_dgv_parent.Size = new System.Drawing.Size(112, 22);
+            this.tsmi_dgv_parent.Size = new System.Drawing.Size(123, 24);
             this.tsmi_dgv_parent.Text = "父目录";
             this.tsmi_dgv_parent.Click += new System.EventHandler(this.tsmi_dgv_parent_Click);
             // 
@@ -432,7 +439,7 @@
             // 
             this.tsmi_dgv_refresh.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_dgv_refresh.Name = "tsmi_dgv_refresh";
-            this.tsmi_dgv_refresh.Size = new System.Drawing.Size(112, 22);
+            this.tsmi_dgv_refresh.Size = new System.Drawing.Size(123, 24);
             this.tsmi_dgv_refresh.Text = "刷新";
             this.tsmi_dgv_refresh.Click += new System.EventHandler(this.tsmi_dgv_refresh_Click);
             // 
@@ -443,14 +450,14 @@
             this.tsmi_dgv_new_txt});
             this.tsmi_dgv_new.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_dgv_new.Name = "tsmi_dgv_new";
-            this.tsmi_dgv_new.Size = new System.Drawing.Size(112, 22);
+            this.tsmi_dgv_new.Size = new System.Drawing.Size(123, 24);
             this.tsmi_dgv_new.Text = "新建";
             // 
             // tsmi_dgv_new_dir
             // 
             this.tsmi_dgv_new_dir.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_dgv_new_dir.Name = "tsmi_dgv_new_dir";
-            this.tsmi_dgv_new_dir.Size = new System.Drawing.Size(112, 22);
+            this.tsmi_dgv_new_dir.Size = new System.Drawing.Size(137, 26);
             this.tsmi_dgv_new_dir.Tag = ".txt";
             this.tsmi_dgv_new_dir.Text = "文件夹";
             this.tsmi_dgv_new_dir.Click += new System.EventHandler(this.tsmi_dgv_new_items_Click);
@@ -459,7 +466,7 @@
             // 
             this.tsmi_dgv_new_txt.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_dgv_new_txt.Name = "tsmi_dgv_new_txt";
-            this.tsmi_dgv_new_txt.Size = new System.Drawing.Size(112, 22);
+            this.tsmi_dgv_new_txt.Size = new System.Drawing.Size(137, 26);
             this.tsmi_dgv_new_txt.Tag = "文件夹";
             this.tsmi_dgv_new_txt.Text = "文件";
             this.tsmi_dgv_new_txt.Click += new System.EventHandler(this.tsmi_dgv_new_items_Click);
@@ -468,7 +475,7 @@
             // 
             this.tsmi_dgv_paste.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_dgv_paste.Name = "tsmi_dgv_paste";
-            this.tsmi_dgv_paste.Size = new System.Drawing.Size(112, 22);
+            this.tsmi_dgv_paste.Size = new System.Drawing.Size(123, 24);
             this.tsmi_dgv_paste.Text = "粘贴";
             // 
             // itemCms
@@ -483,14 +490,14 @@
             this.tsmi_item_rename,
             this.tsmi_item_attr});
             this.itemCms.Name = "itemCms";
-            this.itemCms.Size = new System.Drawing.Size(125, 158);
+            this.itemCms.Size = new System.Drawing.Size(139, 172);
             this.itemCms.Opening += new System.ComponentModel.CancelEventHandler(this.cms_item_Opening);
             // 
             // tsmi_item_open
             // 
             this.tsmi_item_open.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_item_open.Name = "tsmi_item_open";
-            this.tsmi_item_open.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_item_open.Size = new System.Drawing.Size(138, 24);
             this.tsmi_item_open.Text = "打开";
             this.tsmi_item_open.Click += new System.EventHandler(this._Tsmi_item_Open_Click);
             // 
@@ -498,7 +505,7 @@
             // 
             this.tsmi_item_Select.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_item_Select.Name = "tsmi_item_Select";
-            this.tsmi_item_Select.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_item_Select.Size = new System.Drawing.Size(138, 24);
             this.tsmi_item_Select.Text = "选定目录";
             this.tsmi_item_Select.Click += new System.EventHandler(this._Tsmi_item_Select_Click);
             // 
@@ -506,21 +513,21 @@
             // 
             this.tsmi_item_paste.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_item_paste.Name = "tsmi_item_paste";
-            this.tsmi_item_paste.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_item_paste.Size = new System.Drawing.Size(138, 24);
             this.tsmi_item_paste.Text = "粘贴";
             // 
             // tsmi_item_cut
             // 
             this.tsmi_item_cut.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_item_cut.Name = "tsmi_item_cut";
-            this.tsmi_item_cut.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_item_cut.Size = new System.Drawing.Size(138, 24);
             this.tsmi_item_cut.Text = "剪切";
             // 
             // tsmi_item_delete
             // 
             this.tsmi_item_delete.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_item_delete.Name = "tsmi_item_delete";
-            this.tsmi_item_delete.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_item_delete.Size = new System.Drawing.Size(138, 24);
             this.tsmi_item_delete.Text = "删除";
             this.tsmi_item_delete.Click += new System.EventHandler(this.tsmi_item_delete_Click);
             // 
@@ -528,7 +535,7 @@
             // 
             this.tsmi_item_rename.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_item_rename.Name = "tsmi_item_rename";
-            this.tsmi_item_rename.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_item_rename.Size = new System.Drawing.Size(138, 24);
             this.tsmi_item_rename.Text = "重命名";
             this.tsmi_item_rename.Click += new System.EventHandler(this.tsmi_item_rename_Click);
             // 
@@ -536,7 +543,7 @@
             // 
             this.tsmi_item_attr.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_item_attr.Name = "tsmi_item_attr";
-            this.tsmi_item_attr.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_item_attr.Size = new System.Drawing.Size(138, 24);
             this.tsmi_item_attr.Text = "属性";
             this.tsmi_item_attr.Click += new System.EventHandler(this.tsmi_item_attribute_Click);
             // 
@@ -548,14 +555,14 @@
             this.tsmi_navi_attr,
             this.tsmi_navi_foldAll});
             this.naviCms.Name = "naviCms";
-            this.naviCms.Size = new System.Drawing.Size(125, 70);
+            this.naviCms.Size = new System.Drawing.Size(139, 76);
             this.naviCms.Opening += new System.ComponentModel.CancelEventHandler(this.cms_navi_Opening);
             // 
             // tsmi_navi_open
             // 
             this.tsmi_navi_open.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_navi_open.Name = "tsmi_navi_open";
-            this.tsmi_navi_open.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_navi_open.Size = new System.Drawing.Size(138, 24);
             this.tsmi_navi_open.Text = "打开";
             this.tsmi_navi_open.Click += new System.EventHandler(this.tsmi_navi_open_Click);
             // 
@@ -563,7 +570,7 @@
             // 
             this.tsmi_navi_attr.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_navi_attr.Name = "tsmi_navi_attr";
-            this.tsmi_navi_attr.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_navi_attr.Size = new System.Drawing.Size(138, 24);
             this.tsmi_navi_attr.Text = "属性";
             this.tsmi_navi_attr.Click += new System.EventHandler(this.tsmi_navi_attribute_Click);
             // 
@@ -571,7 +578,7 @@
             // 
             this.tsmi_navi_foldAll.ForeColor = System.Drawing.Color.Teal;
             this.tsmi_navi_foldAll.Name = "tsmi_navi_foldAll";
-            this.tsmi_navi_foldAll.Size = new System.Drawing.Size(124, 22);
+            this.tsmi_navi_foldAll.Size = new System.Drawing.Size(138, 24);
             this.tsmi_navi_foldAll.Text = "折叠所有";
             this.tsmi_navi_foldAll.Click += new System.EventHandler(this.tsmi_navi_foldAll_Click);
             // 
@@ -585,13 +592,13 @@
             // 
             // FilterFileDialogF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.CancelButton = this.cancelBotton;
-            this.ClientSize = new System.Drawing.Size(672, 544);
-            this.MinimumSize = new System.Drawing.Size(600, 400);
+            this.ClientSize = new System.Drawing.Size(896, 706);
+            this.MinimumSize = new System.Drawing.Size(800, 500);
             this.Name = "FilterFileDialogF";
             this.Opacity = 0.88D;
-            this.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.Padding = new System.Windows.Forms.Padding(4, 0, 4, 4);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FilterFileDialog";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.this_FormClosing);

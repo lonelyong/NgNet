@@ -36,7 +36,7 @@
             // ContentPanel
             // 
             this.ContentPanel.Controls.Add(this.picBox);
-            this.ContentPanel.Size = new System.Drawing.Size(762, 424);
+            this.ContentPanel.Size = new System.Drawing.Size(758, 430);
             this.ContentPanel.SizeChanged += new System.EventHandler(this._Panel_SizeChanged);
             // 
             // picBox
@@ -54,8 +54,8 @@
             // 
             // ImageBoxF
             // 
-            
-            this.ClientSize = new System.Drawing.Size(770, 462);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.ClientSize = new System.Drawing.Size(766, 462);
             this.MinimumSize = new System.Drawing.Size(480, 360);
             this.Name = "ImageBoxF";
             this.Opacity = 0.96D;

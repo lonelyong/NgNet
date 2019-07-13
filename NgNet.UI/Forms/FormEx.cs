@@ -20,7 +20,7 @@ namespace NgNet.UI.Forms
             // 
             // FormEx
             // 
-            this.ClientSize = new System.Drawing.Size(284, 274);
+            this.ClientSize = new System.Drawing.Size(290, 277);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormEx";
             this.ResumeLayout(false);

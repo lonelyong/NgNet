@@ -38,32 +38,34 @@
             // 
             this.ContentPanel.Controls.Add(this.label1);
             this.ContentPanel.Controls.Add(this.pictureBox1);
-            this.ContentPanel.Size = new System.Drawing.Size(526, 360);
+            this.ContentPanel.Location = new System.Drawing.Point(5, 34);
+            this.ContentPanel.Size = new System.Drawing.Size(708, 459);
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(219, 36);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(292, 45);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(264, 160);
+            this.label1.Size = new System.Drawing.Size(352, 200);
             this.label1.TabIndex = 2;
             this.label1.Text = "对不起，程序出现错误";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(45, 36);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(60, 45);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(133, 125);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // CrashDialogF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.ClientSize = new System.Drawing.Size(534, 392);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.ClientSize = new System.Drawing.Size(718, 498);
             this.Name = "CrashDialogF";
+            this.Padding = new System.Windows.Forms.Padding(5, 2, 5, 5);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CrashDialogF";
             this.Controls.SetChildIndex(this.ContentPanel, 0);

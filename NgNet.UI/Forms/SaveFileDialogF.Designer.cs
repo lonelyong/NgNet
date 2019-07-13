@@ -34,13 +34,33 @@
             // 
             // nameComboBox
             // 
+            this.nameComboBox.Size = new System.Drawing.Size(569, 26);
             this.nameComboBox.TextChanged += new System.EventHandler(this.nameComboBox_TextChanged);
+            // 
+            // okButton
+            // 
+            this.okButton.Location = new System.Drawing.Point(851, 629);
+            this.okButton.Margin = new System.Windows.Forms.Padding(9, 8, 9, 8);
+            // 
+            // cancelBotton
+            // 
+            this.cancelBotton.Location = new System.Drawing.Point(950, 629);
+            this.cancelBotton.Margin = new System.Windows.Forms.Padding(9, 8, 9, 8);
+            // 
+            // ContentPanel
+            // 
+            this.ContentPanel.Location = new System.Drawing.Point(5, 26);
+            this.ContentPanel.Size = new System.Drawing.Size(1057, 664);
             // 
             // SaveFileDialogF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1067, 695);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(1067, 625);
             this.Name = "SaveFileDialogF";
+            this.Padding = new System.Windows.Forms.Padding(5, 0, 5, 5);
             this.Text = "SaveDialog";
             this.Controls.SetChildIndex(this.ContentPanel, 0);
             this.ContentPanel.ResumeLayout(false);

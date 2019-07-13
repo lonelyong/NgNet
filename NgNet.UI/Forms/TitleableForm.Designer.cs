@@ -33,14 +33,13 @@
             // ContentPanel
             // 
             this.ContentPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ContentPanel.Location = new System.Drawing.Point(0, 165);
-            this.ContentPanel.Size = new System.Drawing.Size(282, 82);
+            this.ContentPanel.Location = new System.Drawing.Point(0, 275);
+            this.ContentPanel.Size = new System.Drawing.Size(458, 102);
             // 
             // TitleableForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.ClientSize = new System.Drawing.Size(352, 308);
-            this.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.ClientSize = new System.Drawing.Size(458, 377);
             this.Name = "TitleableForm";
             this.Text = "TitleableForm";
             this.ResumeLayout(false);
